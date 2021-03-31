@@ -1,0 +1,172 @@
+.navbar {
+    height: 100%;
+    
+    @include respond(tab-port) {
+        height: unset;
+        background-color: $color-grey-light-1;
+        position: fixed;
+        overflow-y: unset;
+
+        &__button {
+            height: 5rem;
+            width: 5rem;
+            display: block;
+            position: fixed;
+            z-index: 1001;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        &__icon {
+            position: relative;
+            margin-top: 2.5rem;
+
+            &,
+            &::before,
+            &::after {
+                width: 2rem;
+                height: 2px;
+                background-color: $color-grey-dark-3;
+                display: inline-block;
+            }
+
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                transition: all 0.2s;
+            }
+
+            &::before {
+                top: -0.8rem;
+            }
+
+            &::after {
+                top: 0.8rem;
+            }
+        }
+
+        &__icon {
+            background-color: transparent;
+        }
+
+        &__icon::before {
+            top: 0;
+            transform: rotate(135deg);
+        }
+
+        &__icon::after {
+            top: 0;
+            transform: rotate(-135deg);
+        }
+
+        .navigation__checkbox:checked ~ .navbar {
+            transform: translateX(0);
+            transition: all 0.5s;
+        }
+
+        .navigation__checkbox ~ .navbar {
+            transform: translateX(-30em);
+            transition: all 0.5s;
+        }
+    }
+
+    &__hidden {
+        display: none;
+    }
+
+    &__header {
+        padding: 4rem 0;
+
+        @include respond(tab-port) {
+            padding: 3rem 0;
+        }
+    }
+
+    &__header-logo {
+        margin: 4rem auto 2rem auto;
+        display: block;
+    }
+
+    &__header-title {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    &__main {
+        list-style-type: none;
+        overflow-y: auto;
+        height: 70%;
+
+        @include respond(tab-port) {
+            overflow-y: none;
+        }
+
+    }
+
+    &__main-list {
+        input[type="checkbox"] {
+            display: none;
+
+            &:checked ~ .navbar__sub-container,
+            &:checked ~ .navbar__sub-container * {
+                max-height: 40rem;
+                transition: all 0.5s;
+                opacity: 1;
+            }
+
+            & ~ .navbar__sub-container,
+            & ~ .navbar__sub-container * {
+                max-height: 0;
+                transition: all 0.5s;
+                opacity: 0;
+            }
+
+            &:checked ~ .navbar__sub-container label {
+                max-height: 40rem;
+                transition: all 0.5s;
+                opacity: 1;
+            }
+        }
+    }
+
+    &__main-label {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        display: inline-block;
+        border-bottom: 2px solid $color-black;
+    }
+
+    &__sub-container {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    &__sub {
+        list-style-type: none;
+    }
+
+    &__sub-list {
+        padding: 0.5rem 1rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        border-bottom: 1px solid $color-grey-dark-1;
+
+        &:last-child {
+            border-bottom: 2px solid $color-black;
+        }
+
+        & > a {
+            &,
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: $color-black;
+            }
+        }
+    }
+}

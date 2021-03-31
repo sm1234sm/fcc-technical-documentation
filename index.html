@@ -1,0 +1,1812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <title>Getting started with the Web</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="documentation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <div class="documentation__navigation navigation">
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                <label for="navi-toggle" class="navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+                <img src="https://www.mozilla.org/media/protocol/img/logos/mozilla/black.40d1af88c248.svg" alt="Mozilla Logo" class="navigation__logo">
+        </div>
+        <nav id="navbar" class="documentation__navbar navbar">
+            <label for="navi-toggle" class="navbar__button">
+                <span class="navbar__icon">&nbsp;</span>
+            </label>
+            <header class="navbar__header">
+                <img src="https://www.mozilla.org/media/protocol/img/logos/mozilla/black.40d1af88c248.svg" alt="Mozilla Logo" class="navbar__header-logo">
+                <h1 class="navbar__header-title">Getting started with the web</h1>
+                <ul class="navbar__hidden">
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#Getting_started_with_the_web" title="Permalink to Getting started with the web">Getting started with the web</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#Installing_basic_software" title="Permalink to Installing basic software">Installing basic software</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#What_will_your_website_look_like?" title="Permalink to What will your website look like?">What will your website look like?</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#Dealing_with_files" title="Permalink to Dealing with files">Dealing with files</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#HTML_basics" title="Permalink to HTML basics">HTML basics</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#CSS_basics" title="Permalink to CSS basics">CSS basics</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#JavaScript_basics" title="Permalink to JavaScript basics">JavaScript basics</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#Publishing_your_website" title="Permalink to Publishing your website">Publishing your website</a>
+                    </li>
+                    <li class="navbar__hidden-list">
+                        <a class="nav-link" href="#How_the_web_works" title="Permalink to How the web works">How the web works</a>
+                    </li>
+                </ul>
+
+            </header>
+            <ul class="navbar__main">
+                <li class="navbar__main-list">
+                    <label for="tab-1" class="navbar__main-label">
+                    Getting started with the web
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-1" id="tab-1">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#the_story_of_your_first_website-summary" title="Permalink to The story of your first website">The story of your first website</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#installing_basic_software-summary" title="Permalink to Installing basic software">Installing basic software</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#what_will_your_website_look_like-summary" title="Permalink to What will your website look like?">What will your website look like?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#dealing_with_files-summary" title="Permalink to Dealing with files">Dealing with files</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#html_basics-summary" title="Permalink to HTML basics">HTML basics</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#css_basics-summary" title="Permalink to CSS basics">CSS basics</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#javascript_basics-summary" title="Permalink to JavaScript basics">JavaScript basics</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#publishing_your_website-summary" title="Permalink to Publishing your website">Publishing your website</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#how_the_web_works-summary" title="Permalink to How the web works">How the web works</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-2" class="navbar__main-label">
+                        Installing basic software
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-2" id="tab-2">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#what_tools_do_the_professionals_use" title="Permalink to What tools do the professionals use?">What tools do the professionals use?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#what_tools_do_i_actually_need_right_now" title="Permalink to What tools do I actually need, right now?">What tools do I actually need, right now?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-3" class="navbar__main-label">
+                        What will your website look like?
+                        <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-3" id="tab-3">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#first_things_first_planning" title="Permalink to First things first: planning">First things first: planning</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#sketching_out_your_design" title="Permalink to Sketching out your design">Sketching out your design</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#choosing_your_assets" title="Permalink to Choosing your assets">Choosing your assets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-4" class="navbar__main-label">
+                        Dealing with files
+                        
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-4" id="tab-4">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#where_should_your_website_live_on_your_computer" title="Permalink to Where should your website live on your computer?">Where should your website live on your computer?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#an_aside_on_casing_and_spacing" title="Permalink to An aside on casing and spacing">An aside on casing and spacing</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#what_structure_should_your_website_have" title="Permalink to What structure should your website have?">What structure should your website have?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#file_paths" title="Permalink to File paths">File paths</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#what_else_should_be_done" title="Permalink to What else should be done?">What else should be done?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-5" class="navbar__main-label">
+                        HTML basics
+                        <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-5" id="tab-5">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#so_what_is_html" title="Permalink to So what is HTML?">So what is HTML?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#images" title="Permalink to Images">Images</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#marking_up_text" title="Permalink to Marking up text">Marking up text</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#links" title="Permalink to Links">Links</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#conclusion" title="Permalink to Conclusion">Conclusion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-6" class="navbar__main-label">
+                        CSS basics
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-6" id="tab-6">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#what_is_css" title="Permalink to What is CSS?">What is CSS?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#fonts_and_text" title="Permalink to Fonts and text">Fonts and text</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#css_all_about_boxes" title="Permalink to CSS: all about boxes">CSS: all about boxes</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#conclusion" title="Permalink to Conclusion">Conclusion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-7" class="navbar__main-label">
+                        JavaScript basics
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-7" id="tab-7">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#what_is_javascript" title="Permalink to What is JavaScript?">What is JavaScript?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#a_hello_world!_example" title="Permalink to A Hello world! example">A <em>Hello world!</em> example</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#language_basics_crash_course" title="Permalink to Language basics crash course">Language basics crash course</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#supercharging_our_example_website" title="Permalink to Supercharging our example website">Supercharging our example website</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#conclusion" title="Permalink to Conclusion">Conclusion</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-8" class="navbar__main-label">
+                    Publishing your website
+                    <span class="navbar__list-icon"></span>
+                </label>
+                    <input type="checkbox" name="tab-8" id="tab-8">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#what_are_the_options" title="Permalink to What are the options?">What are the options?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#publishing_via_github" title="Permalink to Publishing via GitHub">Publishing via GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navbar__main-list">
+                    <label for="tab-9" class="navbar__main-label">
+                    How the web works
+                    <span class="navbar__list-icon"></span>
+                    </label>
+                    <input type="checkbox" name="tab-9" id="tab-9">
+                    <div class="navbar__sub-container">
+                        <ul class="navbar__sub">
+                            <li class="navbar__sub-list">
+                                <a href="#clients_and_servers" title="Permalink to Clients and servers">Clients and servers</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#the_other_parts_of_the_toolbox" title="Permalink to The other parts of the toolbox">The other parts of the toolbox</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#so_what_happens_exactly" title="Permalink to So what happens, exactly?">So what happens, exactly?</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#order_in_which_component_files_are_parsed" title="Permalink to Order in which component files are parsed">Order in which component files are parsed</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#dns_explained" title="Permalink to DNS explained">DNS explained</a>
+                            </li>
+                            <li class="navbar__sub-list">
+                                <a href="#packets_explained" title="Permalink to Packets explained">Packets explained</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main id="main-doc" class="documentation__content content">
+            <section class="main-section" id="Getting_started_with_the_web">
+                <header>Getting started with the web</header>
+                <h1><a href="#getting_started_with_the_web" title="Permalink to Getting started with the web">Getting started with the web</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p><em>Getting started with the Web</em> is a concise series introducing you to the practicalities of web development. You'll set up the tools you need to construct a simple webpage and publish your own simple code.</p>
+                    </div>
+                </div>
+                <h2 id="the_story_of_your_first_website-summary"><a href="#the_story_of_your_first_website" title="Permalink to The story of your first website">The story of your first website</a></h2>
+                <div>
+                    <p>It's a lot of work to create a professional website, so if you're new to web development, we encourage you to start small. You won't build another Facebook right away, but it's not hard to make your own simple website online, so we'll
+                        start there.</p>
+
+                    <p>By working through the articles listed below,&nbsp;&nbsp;you will go from nothing to getting your first webpage online. Let's begin our journey!</p>
+                </div>
+                <h3 id="installing_basic_software-summary"><a href="#installing_basic_software" title="Permalink to Installing basic software">Installing basic software</a></h3>
+                <div>
+                    <p>When it comes to tools for building a website, there's a lot to pick from. If you're just starting, you might be confused by the array of code editors, frameworks, and testing tools out there. In <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Installing_basic_software">Installing basic software</a>,
+                        we will show you step-by-step how to install the software you need to begin some basic web development.</p>
+                </div>
+                <h3 id="what_will_your_website_look_like-summary"><a href="#what_will_your_website_look_like" title="Permalink to What will your website look like?">What will your website look like?</a></h3>
+                <div>
+                    <p>Before you start writing the code for your website, you should plan it first. What information are you showcasing? What fonts and colors are you using? <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like">What will your website look like?</a>                        We outline a simple method you can follow to plan out your site's content and design.</p>
+                </div>
+                <h3 id="dealing_with_files-summary"><a href="#dealing_with_files" title="Permalink to Dealing with files">Dealing with files</a></h3>
+                <div>
+                    <p>A website consists of many files: text content, code, stylesheets, media content, and so on. When you're building a website, you need to assemble these files into a sensible structure and make sure they can talk to one another.
+                        <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a> explains how to set up a sensible file structure for your website and what issues you should be aware
+                        of.
+                    </p>
+                </div>
+                <h3 id="html_basics-summary"><a href="#html_basics" title="Permalink to HTML basics">HTML basics</a></h3>
+                <div>
+                    <p>Hypertext Markup Language (HTML) is the code that you use to structure your web content and give it meaning and purpose. For example, is my content a set of paragraphs or a list of bullet points? Do I have images inserted on my page?
+                        Do I have a data table? Without overwhelming you, <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a> provide enough information to make you familiar with HTML.</p>
+                </div>
+                <h3 id="css_basics-summary"><a href="#css_basics" title="Permalink to CSS basics">CSS basics</a></h3>
+                <div>
+                    <p>Cascading Stylesheets (CSS) is the code that you use to style your website. For example, do you want the text to be black or red? Where should content be drawn on the screen? What background images and colors should be used to decorate
+                        your website? <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS basics</a> take you through what you need to get started.</p>
+                </div>
+                <h3 id="javascript_basics-summary"><a href="#javascript_basics" title="Permalink to JavaScript basics">JavaScript basics</a></h3>
+                <div>
+                    <p>JavaScript is the programming language that you use to add interactive features to your website. Some examples could be games, things that happen when buttons are pressed or data is entered in forms, dynamic styling effects, animation,
+                        and much more. <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript basics</a> give you an idea of what is possible with this exciting language, and how to get started.</p>
+                </div>
+                <h3 id="publishing_your_website-summary"><a href="#publishing_your_website" title="Permalink to Publishing your website">Publishing your website</a></h3>
+                <div>
+                    <p>Once you have finished writing the code and organizing the files that make up your website, you need to put it all online so people can find it. <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website">Publishing your sample code</a>                        describes how to get your simple sample code online with minimum effort.</p>
+                </div>
+                <h3 id="how_the_web_works-summary"><a href="#how_the_web_works" title="Permalink to How the web works">How the web works</a></h3>
+                <div>
+                    <p>When you access your favorite website, a lot of complicated things happen in the background that you may not know about. <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works">How the web works</a>                        outlines what happens when you view a webpage on your computer.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Installing_basic_software">
+                <header>Installing basic software</header>
+
+                <h1><a href="#installing_basic_software" title="Permalink to Installing basic software">Installing basic software</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p>In <em>Installing basic software</em>, we show you what tools you need to do simple web development&nbsp;and how to install them properly.</p>
+                    </div>
+                </div>
+                <h2 id="what_tools_do_the_professionals_use"><a href="#what_tools_do_the_professionals_use" title="Permalink to What tools do the professionals use?">What tools do the professionals use?</a></h2>
+                <div>
+                    <ul>
+                        <li><strong>A computer</strong>. Maybe that sounds obvious to some people, but some of you are reading this article on your phone or a library computer. For serious web development, it's better to invest in a desktop or laptop computer
+                            running Windows, macOS or Linux.</li>
+                        <li><strong>A text editor</strong>, to write code in. This could be a text editor (e.g.&nbsp;<a href="https://code.visualstudio.com/" class="external" rel=" noopener">Visual Studio Code</a>,&nbsp;<a href="https://notepad-plus-plus.org/"
+                                class="external" rel=" noopener">Notepad++</a>,&nbsp;<a href="https://www.sublimetext.com/" class="external" rel=" noopener">Sublime Text</a>,&nbsp;<a href="https://atom.io/" class="external" rel=" noopener">Atom</a>, <a href="https://www.gnu.org/software/emacs/"
+                                class="external" rel=" noopener">GNU Emacs</a>, or&nbsp;<a href="https://www.vim.org/" class="external" rel=" noopener">VIM</a>), or a hybrid editor (e.g. <a href="https://www.adobe.com/products/dreamweaver.html" class="external"
+                                rel=" noopener">Dreamweaver </a>or <a href="https://www.jetbrains.com/webstorm/" class="external" rel=" noopener">WebStorm</a>). Office document editors are not suitable for this use, as they rely on hidden elements that interfere
+                            with the rendering engines used by web browsers.</li>
+                        <li><strong>Web browsers</strong>, to test code in. Currently, the most-used browsers are <a href="https://www.mozilla.orghttps://developer.mozilla.org/en-US/firefox/new/" class="external" rel=" noopener">Firefox</a>, <a href="https://www.google.com/chrome/browser/"
+                                class="external" rel=" noopener">Chrome</a>, <a href="https://www.opera.com/" class="external" rel=" noopener">Opera</a>, <a href="https://www.apple.com/safari/" class="external" rel=" noopener">Safari</a>, <a href="http://windows.microsoft.comhttps://developer.mozilla.org/en-US/internet-explorer/download-ie"
+                                class="external" rel=" noopener">Internet Explorer</a>&nbsp;and&nbsp;<a href="https://www.microsoft.com/edge" class="external" rel=" noopener">Microsoft Edge</a>. You should also test how your site performs on mobile devices
+                            and on any old browsers&nbsp;your target audience may still be using (such as IE 8–10). <a href="https://lynx.browser.org/" class="external" rel=" noopener">Lynx</a>, a text-based terminal web browser, is great for seeing how
+                            your site is experienced by visually-impaired users.</li>
+                        <li><strong>A graphics editor</strong>, like <a href="https://www.gimp.org/" class="external" rel=" noopener">GIMP</a>, <a href="https://www.figma.com/" class="external" rel=" noopener">Figma</a>,&nbsp;<a href="https://www.getpaint.net/"
+                                class="external" rel=" noopener">Paint.NET</a>, <a href="https://www.adobe.com/products/photoshop.html" class="external" rel=" noopener">Photoshop</a>, <a href="https://www.sketch.com" class="external" rel=" noopener">Sketch</a>                            or <a href="https://www.adobe.com/products/xd.html" class="external" rel=" noopener">XD</a>, to make images or graphics for your web pages.</li>
+                        <li><strong>A version control system</strong>, to manage files on servers, collaborate on a project with a team, share code and assets&nbsp;and avoid editing conflicts. Right now,&nbsp;<a href="https://git-scm.com/" class="external"
+                                rel=" noopener">Git</a> is the most popular version control system along with the <a href="https://github.com/" class="external" rel=" noopener">GitHub</a>&nbsp;or <a href="https://gitlab.com" class="external" rel=" noopener">GitLab</a>&nbsp;hosting
+                            service.
+                        </li>
+                        <li><strong>An FTP program</strong>, used on older web hosting accounts&nbsp;to manage files on servers (<a href="https://git-scm.com/" class="external" rel=" noopener">Git</a>&nbsp;is increasingly replacing FTP for this purpose).
+                            There are loads of (S)FTP programs available including <a href="https://cyberduck.io/" class="external" rel=" noopener">Cyberduck</a>, <a href="http://fetchsoftworks.com/" class="external" rel=" noopener">Fetch</a>&nbsp;and
+                            <a href="https://filezilla-project.org/" class="external" rel=" noopener">FileZilla</a>.</li>
+                        <li><strong>An automation system,</strong>&nbsp;like <a href="https://webpack.js.org/" class="external" rel=" noopener">Webpack</a>,&nbsp;<a href="http://gruntjs.com/" class="external" rel=" noopener">Grunt</a>,&nbsp;or <a href="http://gulpjs.com/"
+                                class="external" rel=" noopener">Gulp</a>&nbsp;to automatically perform repetitive tasks, such as&nbsp;minifying code and running tests.</li>
+                        <li>Libraries, frameworks, etc., to speed up writing common functionality. A library tends to be an existing JavaScript or CSS file that provides ready-rolled functionality for you to make use of in your code. A framework tend to take
+                            this idea further, offering a complete system with some custom syntaxes for you to write a web app on top of.</li>
+                        <li>More tools besides!</li>
+                    </ul>
+                </div>
+                <h2 id="what_tools_do_i_actually_need_right_now"><a href="#what_tools_do_i_actually_need_right_now" title="Permalink to What tools do I actually need, right now?">What tools do I actually need, right now?</a></h2>
+                <div>
+                    <p>That looks like a scary list, but fortunately, you can get started in web development without knowing anything about most of these. In this article, we'll just set you up with a bare minimum — a text editor and some modern web browsers.</p>
+                </div>
+                <h3 id="installing_a_text_editor"><a href="#installing_a_text_editor" title="Permalink to Installing a text editor">Installing a text editor</a></h3>
+                <div>
+                    <p>You probably already have a basic text editor on your computer. By default Windows includes <a href="https://en.wikipedia.org/wiki/Microsoft_Notepad" class="external" rel=" noopener">Notepad</a> and macOS comes with <a href="https://en.wikipedia.org/wiki/TextEdit"
+                            class="external" rel=" noopener">TextEdit</a>. Linux distros vary; Ubuntu comes with&nbsp;<a href="https://en.wikipedia.org/wiki/Gedit" class="external" rel=" noopener">gedit</a> by default.</p>
+
+                    <p>For web development, you can probably do better than Notepad or TextEdit. We recommend starting with <a href="https://code.visualstudio.com/" class="external" rel=" noopener">Visual Studio Code</a>, which is a&nbsp;free editor, that
+                        offers live previews and code hints.</p>
+                </div>
+                <h3 id="installing_modern_web_browsers"><a href="#installing_modern_web_browsers" title="Permalink to Installing modern web browsers">Installing modern web browsers</a></h3>
+                <div>
+                    <p>For now, we'll install a couple of desktop web browsers to test our code in. Choose your operating system below and click the relevant links to download installers for your favorite browsers:</p>
+
+                    <ul>
+                        <li>Linux: <a href="https://www.mozilla.orghttps://developer.mozilla.org/en-US/firefox/new/" class="external" rel=" noopener">Firefox</a>, <a href="https://www.google.com/chrome/browser/" class="external" rel=" noopener">Chrome</a>,
+                            <a href="https://www.opera.com/" class="external" rel=" noopener">Opera</a>, <a href="https://brave.com" class="external" rel=" noopener">Brave</a>.</li>
+                        <li>Windows: <a href="https://www.mozilla.orghttps://developer.mozilla.org/en-US/firefox/new/" class="external" rel=" noopener">Firefox</a>,&nbsp;<a href="https://www.google.com/chrome/browser/" class="external" rel=" noopener">Chrome</a>,
+                            <a href="https://www.opera.com/" class="external" rel=" noopener">Opera</a>, <a href="http://windows.microsoft.comhttps://developer.mozilla.org/en-US/internet-explorer/download-ie" class="external" rel=" noopener">Internet Explorer</a>,
+                            <a href="https://www.microsoft.com/edge" class="external" rel=" noopener">Microsoft Edge</a>, <a href="https://brave.com" class="external" rel=" noopener">Brave</a>&nbsp;(Windows 10 comes with Edge by default; if you have Windows
+                            7 or above, you can install Internet Explorer 11; otherwise, you should install an alternative browser).</li>
+                        <li>macOS: <a href="https://www.mozilla.orghttps://developer.mozilla.org/en-US/firefox/new/" class="external" rel=" noopener">Firefox</a>, <a href="https://www.google.com/chrome/browser/" class="external" rel=" noopener">Chrome</a>,
+                            <a href="https://www.opera.com/" class="external" rel=" noopener">Opera</a>, <a href="https://www.apple.com/safari/" class="external" rel=" noopener">Safari</a>, <a href="https://brave.com" class="external" rel=" noopener">Brave</a>                            (macOS and iOS come with Safari by default).</li>
+                    </ul>
+
+                    <p>Before going on, you should install at least two of these browsers and have them ready for testing.</p>
+
+                    <div class="notecard note">
+                        <p><strong>Note</strong>: Internet Explorer is not compatible with some modern web features and it may not be able to run your project. You usually don't need to worry about making your web projects compatible with it, as very few
+                            people still use it — certainly don't worry too much about it while you are learning. You might sometimes run into a project that requires support for it.</p>
+                    </div>
+                </div>
+                <h3 id="installing_a_local_web_server"><a href="#installing_a_local_web_server" title="Permalink to Installing a local web server">Installing a local web server</a></h3>
+                <div>
+                    <p>Some examples will need to be run by a web server to work successfully. You can find out how to do this in <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">How do you set up a local testing server?</a>
+                    </p>
+                </div>
+            </section>
+
+            <section class="main-section" id="What_will_your_website_look_like?">
+                <header>What will your website look like?</header>
+                <h1><a href="#what_will_your_website_look_like" title="Permalink to What will your website look like?">What will your website look like?</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p><em>What will your website look like?</em> discusses the planning and design work you have to do for your website before writing code, including "What information does my website offer?", "What fonts and colors do I want?", and
+                            "What does my site do?"</p>
+                    </div>
+                </div>
+                <h2 id="first_things_first_planning"><a href="#first_things_first_planning" title="Permalink to First things first: planning">First things first: planning</a></h2>
+                <div>
+                    <p>Before doing anything, you need some ideas. What should your website actually do? A website can do basically anything, but, for your first try, you should keep things simple. We'll start by creating a simple webpage with a heading,
+                        an image, and a few paragraphs.</p>
+
+                    <p>To begin, you'll need to answer these questions:</p>
+
+                    <ol>
+                        <li><strong>What is your website about?</strong> Do you like dogs, New York, or Pac-Man?</li>
+                        <li><strong>What information are you presenting on the subject?</strong> Write a title and a few paragraphs and think of an image you'd like to show on your page.</li>
+                        <li><strong>What does your website look like,</strong> in simple high-level terms? What's the background color? What kind of font is appropriate: formal, cartoony, bold and loud, subtle?</li>
+                    </ol>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: Complex projects need detailed guidelines that go into all the details of colors, fonts, spacing between items on a page, appropriate writing style, and so on. This is sometimes called a design guide, design
+                            system, or brand book, and you can see an example at the <a href="https://design.firefox.com/photon/" class="external" rel=" noopener">Firefox Photon Design System</a>.</p>
+                    </div>
+                </div>
+                <h2 id="sketching_out_your_design"><a href="#sketching_out_your_design" title="Permalink to Sketching out your design">Sketching out your design</a></h2>
+                <div>
+                    <p>Next, grab pen and paper and sketch out roughly how you want your site to look. For your first simple webpage, there's not much to sketch out, but you should get in the habit of doing this now. It really helps — you don't have to be
+                        Van Gogh!
+                    </p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/website-drawing-scan.png" loading="lazy" width="640" height="460"></p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: Even on real, complex websites, the design teams usually start out with rough sketches on paper and later on build digital mockups using a graphics editor or web technologies.</p>
+
+                        <p>Web teams often include both a graphic designer and a <a href="https://developer.mozilla.org/en-US/docs/Glossary/UX">user experience</a> (UX) designer. Graphic designers put together the visuals of the website. UX designers have
+                            a somewhat more abstract role in addressing how users will experience and interact with the website.</p>
+                    </div>
+                </div>
+                <h2 id="choosing_your_assets"><a href="#choosing_your_assets" title="Permalink to Choosing your assets">Choosing your assets</a></h2>
+                <div>
+                    <p>At this point, it's good to start putting together the content that will eventually appear on your webpage.</p>
+                </div>
+                <h3 id="text"><a href="#text" title="Permalink to Text">Text</a></h3>
+                <div>
+                    <p>You should still have your paragraphs and title from earlier. Keep these close by.</p>
+                </div>
+                <h3 id="theme_color"><a href="#theme_color" title="Permalink to Theme color">Theme color</a></h3>
+                <div>
+                    <p>To choose a color, go to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool">the Color Picker</a> and find a color you like. When you click on a color, you'll see a strange six-character code like
+                        <code>#660066</code>. That's called a <em>hex code</em> (short for hexadecimal), and represents your color. Copy the code down somewhere safe for now.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/screenshot_from_2014-11-03_17_40_49.png" style="border-style: solid; border-width: 1px;" loading="lazy" width="850"
+                            height="500"></p>
+                </div>
+                <h3 id="images"><a href="#images" title="Permalink to Images">Images</a></h3>
+                <div>
+                    <p>To choose an image, go to <a href="https://www.google.com/imghp?gws_rd=ssl" class="external" rel=" noopener">Google Images</a> and search for something suitable.</p>
+
+                    <ol>
+                        <li>When you find the image you want, click on the image to get an enlarged view of it.</li>
+                        <li>Right-click the image (Ctrl + click on a Mac), choose <em>Save Image As...</em>, and choose a safe place to save your image. Alternatively, copy the image's web address from your browser's address bar for later use.</li>
+                    </ol>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/updated-google-images.png" style="border-style: solid; border-width: 1px; display: block; margin: 0px auto;"
+                            loading="lazy" width="750" height="636"></p>
+
+                    <p>Note that most images on the web, including in Google Images, are copyrighted. To reduce your likelihood of violating copyright, you can use Google's license filter. Click on the <em>Tools</em> button, then on the resulting <em>Usage rights</em>                        option that appears below. You should choose an option such as <em>Labeled for reuse</em>.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/updated-google-images-licensing.png" style="border-style: solid; border-width: 1px; display: block; margin: 0px auto;"
+                            loading="lazy" width="750" height="401"></p>
+                </div>
+                <h3 id="font"><a href="#font" title="Permalink to Font">Font</a></h3>
+                <div>
+                    <p>To choose a font:</p>
+
+                    <ol>
+                        <li>Go to <a href="http://www.google.com/fonts" class="external" rel=" noopener">Google Fonts</a> and scroll down the list until you find one you like. You can also use the controls on the right to further filter the results.</li>
+                        <li>Click the "plus" (Add to) icon next to the font you want.</li>
+                        <li>Click the "* Family Selected" button in the panel at the bottom of the page ("*" depends on how many fonts you selected).</li>
+                        <li>In the popup box, you can see and copy the lines of code Google gives you into your text editor to save for later.</li>
+                    </ol>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/font1.png" style="border-style: solid; border-width: 1px;" loading="lazy" width="1697" height="1016"></p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like/font2.png" style="border-style: solid; border-width: 1px;" loading="lazy" width="705" height="714"></p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Dealing_with_files">
+                <header>Dealing with files</header>
+                <h1><a href="#dealing_with_files" title="Permalink to Dealing with files">Dealing with files</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p>A website consists of many files: text content, code, stylesheets, media content, and so on. When you're building a website, you need to assemble these files into a sensible structure on your local computer, make sure they can
+                            talk to one another, and get all your content looking right before you eventually <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website">upload them to a server</a>.
+                            <em>Dealing with files</em> discusses some issues you should be aware of so you can set up a sensible file structure for your website.</p>
+                    </div>
+                </div>
+                <h2 id="where_should_your_website_live_on_your_computer"><a href="#where_should_your_website_live_on_your_computer" title="Permalink to Where should your website live on your computer?">Where should your website live on your computer?</a></h2>
+                <div>
+                    <p>When you are working on a website locally on your computer, you should keep all the related files in a single folder that mirrors the published website's file structure on the server. This folder can live anywhere you like, but you
+                        should put it somewhere where you can easily find it, maybe on your Desktop, in your Home folder, or at the root of your hard drive.</p>
+
+                    <ol>
+                        <li>Choose a place to store your website projects. Inside your chosen place, create a new folder called <code>web-projects</code> (or similar). This is where all your website projects will live.</li>
+                        <li>Inside this first folder, create another folder to store your first website in. Call it <code>test-site</code> (or something more imaginative).</li>
+                    </ol>
+                </div>
+                <h2 id="an_aside_on_casing_and_spacing"><a href="#an_aside_on_casing_and_spacing" title="Permalink to An aside on casing and spacing">An aside on casing and spacing</a></h2>
+                <div>
+                    <p>You'll notice that throughout this article, we ask you to name folders and files completely in lowercase with no spaces. This is because:</p>
+
+                    <ol>
+                        <li>Many computers, particularly web servers, are case-sensitive. So for example, if you put an image on your website at&nbsp;<code>test-site/MyImage.jpg</code> and then in a different file you try to invoke the image as <code>test-site/myimage.jpg</code>,
+                            it may not work.</li>
+                        <li>Browsers, web servers, and programming languages do not handle spaces consistently. For example, if you use spaces in your filename, some systems may treat the filename as two filenames. Some servers will replace the areas in your
+                            filenames with "%20" (the character code for spaces in URIs), resulting in all your links being broken. It's better to separate words with dashes, rather than underscores:&nbsp;<code>my-file.html</code> vs.&nbsp;<code>my_file.html</code>.</li>
+                    </ol>
+
+                    <p>The short answer is that you should use a&nbsp;hyphen&nbsp;for your file names. The Google search engine treats a&nbsp;hyphen&nbsp;as a word separator but does not regard an&nbsp;underscore&nbsp;that way. For these reasons, it is best
+                        to get into the habit of writing your folder and file names lowercase with no spaces and with words separated by dashes, at least until you know what you're doing. That way you'll bump into fewer problems later down the road.</p>
+                </div>
+                <h2 id="what_structure_should_your_website_have"><a href="#what_structure_should_your_website_have" title="Permalink to What structure should your website have?">What structure should your website have?</a></h2>
+                <div>
+                    <p>Next, let's look at what structure our test site should have. The most common things we'll have on any website project we create are an index HTML file and folders to contain images, style files, and script files. Let's create these
+                        now:
+                    </p>
+
+                    <ol>
+                    <li><code><strong>index.html</strong></code>: This file will generally contain your homepage content, that is, the text and images that people see when they first go to your site. Using your text editor, create a new file called <code>index.html</code>                            and save it just inside your <code>test-site</code> folder.</li>
+                    <li><strong><code>images</code> folder</strong>: This folder will contain all the images that you use on your site. Create a folder called <code>images</code>, inside your <code>test-site</code> folder.</li>
+                    <li><strong><code>styles</code> folder</strong>: This folder will contain the CSS code used to style your content (for example, setting text and background colors). Create a folder called <code>styles</code>, inside your <code>test-site</code>                            folder.</li>
+                    <li><strong><code>scripts</code> folder</strong>: This folder will contain all the JavaScript code used to add interactive functionality to your site (e.g. buttons that load data when clicked). Create a folder called <code>scripts</code>,
+                        inside your <code>test-site</code> folder.</li>
+                    </ol>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: On Windows computers, you might have trouble seeing the file names, because Windows has an option called <strong>Hide extensions for known file types</strong> turned on by default. Generally, you can turn
+                            this off by going to Windows Explorer, selecting the <strong>Folder options...</strong> option, unchecking the <strong>Hide extensions for known file types</strong> check box, then clicking <strong>OK</strong>. For more specific
+                            information covering your version of Windows, you can search on the web.&nbsp;</p>
+                    </div>
+                </div>
+                <h2 id="file_paths"><a href="#file_paths" title="Permalink to File paths">File paths</a></h2>
+                <div>
+                    <p>To make files talk to one another, you have to provide a file path between them — basically a route, so one file knows where another one is. To demonstrate this, we will insert a little bit of HTML into our <code>index.html</code>                        file, and make it display the image you chose in the article <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like">"What will your website look like?"</a> Alternatively,
+                        you can choose an existing image at your disposal, on your computer or from the Web, and use it in the following steps:</p>
+
+                    <ol>
+                        <li>Copy the image you chose earlier into your <code>images</code> folder.</li>
+                        <li>Open up your <code>index.html</code> file, and insert the following code into the file exactly as shown. Don't worry about what it all means for now — we'll look at the structures in more detail later in the series.
+        <pre class="brush: html notranslate"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>My test page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>My test image<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span> </code></pre>
+    </li>
+                        <li>The line <code>&lt;img src="" alt="My test image"&gt;</code> is the HTML code that inserts an image into the page. We need to tell the HTML where the image is. The image is inside the <em>images</em> directory, which is in the
+                            same directory as <code>index.html</code>. To walk down the file structure from <code>index.html</code> to our image, the file path we'd need is <code>images/your-image-filename</code>. For example, our image is called <code>firefox-icon.png</code>,
+                            so the file path is <code>images/firefox-icon.png</code>.</li>
+                        <li>Insert the file path into your HTML code between the double quote marks of the <code>src=""</code> code.</li>
+                        <li>Save your HTML file, then load it in your web browser (double-click the file). You should see your new webpage displaying your image!&nbsp;</li>
+                    </ol>
+
+                    <p><img alt="A screenshot of our basic website showing just the firefox logo - a flaming fox wrapping the world" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files/website-screenshot.png"
+                            loading="lazy" width="690" height="542"></p>
+
+                    <p>Some general rules for file paths:</p>
+
+                    <ul>
+                        <li>To link to a target file in the same directory as the invoking HTML file, just use the filename, e.g. <code>my-image.jpg</code>.</li>
+                        <li>To reference a file in a subdirectory, write the directory name in front of the path, plus a forward slash, e.g. <code>subdirectory/my-image.jpg</code>.</li>
+                        <li>To link to a target file in the directory <strong>above</strong> the invoking HTML file, write two dots. So for example, if <code>index.html</code> was inside a subfolder of <code>test-site</code> and <code>my-image.jpg</code>                            was inside <code>test-site</code>, you could reference <code>my-image.jpg</code> from <code>index.html</code> using <code>../my-image.jpg</code>.</li>
+                        <li>You can combine these as much as you like, for example <code>../subdirectory/another-subdirectory/my-image.jpg</code>.</li>
+                    </ul>
+
+                    <p>For now, this is about all you need to know.</p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: The Windows file system tends to use backslashes, not forward slashes, e.g. <code>C:\windows</code>. This doesn't matter in HTML — even if you are developing your website on Windows, you should still use
+                            forward slashes in your code.</p>
+                    </div>
+                </div>
+                <h2 id="what_else_should_be_done"><a href="#what_else_should_be_done" title="Permalink to What else should be done?">What else should be done?</a></h2>
+                <div>
+                    <p>That is about it for now. Your folder structure should look something like this:</p>
+
+                    <p><img alt="A file structure in mac os x finder, showing an images folder with an image in, empty scripts and styles folders, and an index.html file" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files/file-structure.png"
+                            loading="lazy" width="929" height="577"></p>
+                </div>
+            </section>
+
+            <section class="main-section" id="HTML_basics">
+                <header>HTML basics</header>
+                <h1><a href="#html_basics-summary" title="Permalink to HTML basics">HTML basics</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p>HTML (<strong>H</strong>yper<strong>t</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage) is the code that is used to structure a web page and its content. For example,&nbsp;content could be structured within a set of
+                            paragraphs,&nbsp;a list of bulleted points, or using images and data tables.&nbsp;As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
+                    </div>
+                </div>
+                <h2 id="so_what_is_html"><a href="#so_what_is_html" title="Permalink to So what is HTML?">So what is HTML?</a></h2>
+                <div>
+                    <p>HTML is a <em>markup language</em> that defines the structure of your content. HTML consists of a series of <strong><a href="https://developer.mozilla.org/en-US/docs/Glossary/Element">elements</a></strong>, which you use to enclose,
+                        or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag">tags</a> can make a word or image hyperlink to somewhere
+                        else, can italicize words, can make the font bigger or smaller, and so on.&nbsp; For example, take the following line of content:</p>
+
+                    <pre class="notranslate">My cat is very grumpy</pre>
+
+                    <p>If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in paragraph tags:</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>My cat is very grumpy<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre></div>
+                <h3 id="anatomy_of_an_html_element"><a href="#anatomy_of_an_html_element" title="Permalink to Anatomy of an HTML element">Anatomy of an HTML element</a></h3>
+                <div>
+                    <p>Let's explore this paragraph element a bit further.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png" loading="lazy" width="821" height="255"></p>
+
+                    <p>The main parts of our element are as follows:</p>
+
+                    <ol>
+                        <li><strong>The opening tag:</strong> This consists of the name of the element (in this case, p), wrapped in opening and closing <strong>angle brackets</strong>. This states where the element begins or starts to take effect — in this
+                            case where the paragraph begins.</li>
+                        <li><strong>The closing tag:</strong> This is the same as the opening tag, except that it includes a <em>forward slash</em> before the element name. This states where the element ends — in this case where the paragraph ends. Failing
+                            to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+                        <li><strong>The content:</strong> This is the content of the element, which in this case, is just text.</li>
+                        <li><strong>The element:</strong> The opening tag, the closing tag, and the content together comprise the element.</li>
+                    </ol>
+
+                    <p>Elements can also have attributes&nbsp;that&nbsp;look like the following:</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png" loading="lazy" width="1287" height="156"></p>
+
+                    <p>Attributes contain extra information about the element that you don't want to appear in the actual content. Here, <code>class</code> is the attribute <em>name</em>&nbsp;and <code>editor-note</code> is the attribute <em>value</em>.
+                        The
+                        <code>class</code> attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same <code>class</code> value) with style information and other things.</p>
+
+                    <p>An attribute should always have the following:</p>
+
+                    <ol>
+                        <li>A space between it and the element name (or the previous attribute, if the element already has one or more attributes).</li>
+                        <li>The attribute name&nbsp;followed by an equal&nbsp;sign.</li>
+                        <li>The attribute value wrapped by opening and closing quotation marks.</li>
+                    </ol>
+
+                    <div class="notecard note">
+                        <p><strong>Note</strong>: Simple attribute values that don't contain ASCII whitespace (or any of the characters&nbsp; <code>"</code>&nbsp;<code>'</code>&nbsp;<code>`</code>&nbsp;<code>=</code>&nbsp;<code>&lt;</code>&nbsp;<code>&gt;</code>                            ) can remain unquoted, but it is recommended that you quote all attribute values, as it makes the code more consistent and understandable.</p>
+                    </div>
+                </div>
+                <h3 id="nesting_elements"><a href="#nesting_elements" title="Permalink to Nesting elements">Nesting elements</a></h3>
+                <div>
+                    <p>You can put elements inside other elements too — this is called <strong>nesting</strong>. If we wanted to state that our cat is <strong>very</strong> grumpy, we could wrap the word "very" in a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a>                        element, which means that the word is to be strongly emphasized:</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>My cat is <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span>very<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span> grumpy.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>You do however need to make sure that your elements are properly nested.&nbsp;In the example above, we opened the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> element first, then
+                        the
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a> element;&nbsp;therefore, we have to close the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong"><code>&lt;strong&gt;</code></a>                        element first, then the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> element. The following is incorrect:</p>
+
+                    <pre class="example-bad brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>My cat is <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span>very grumpy.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap as shown above, then your web browser will try to make the best guess at what you were trying to say, which can lead
+                        to unexpected results. So don't do it!</p>
+                </div>
+                <h3 id="empty_elements"><a href="#empty_elements" title="Permalink to Empty elements">Empty elements</a></h3>
+                <div>
+                    <p>Some elements have no content and are called <strong>empty elements</strong>. Take the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a> element that we already have in our HTML page:</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/firefox-icon.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>My test image<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>This contains two attributes, but there is no closing <code>&lt;/img&gt;</code> tag and no inner content. This is because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the
+                        place it appears.</p>
+                </div>
+                <h3 id="anatomy_of_an_html_document"><a href="#anatomy_of_an_html_document" title="Permalink to Anatomy of an HTML document">Anatomy of an HTML document</a></h3>
+                <div>
+                    <p>That wraps up the basics of individual HTML elements, but they aren't handy on their own. Now we'll look at how individual elements are combined to form an entire HTML page. Let's revisit the code we put into our <code>index.html</code>                        example (which we first met in the <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a> article):</p>
+
+<pre class="brush: html notranslate"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>My test page<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/firefox-icon.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>My test image<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>Here, we have the following:</p>
+
+                    <ul>
+                        <li><code>&lt;!DOCTYPE html&gt;</code> — doctype. It is a required preamble. In the mists of time, when HTML was young (around 1991/92), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered
+                            good HTML, which could mean automatic error checking and other useful things. However these days, they don't do much and are basically just needed to make sure your document behaves correctly. That's all you need to know for
+                            now.
+                        </li>
+                        <li><code>&lt;html&gt;&lt;/html&gt;</code> — the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><code>&lt;html&gt;</code></a> element. This element wraps all the content on the entire page and is sometimes
+                            known as the root element.</li>
+                        <li><code>&lt;head&gt;&lt;/head&gt;</code> — the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"><code>&lt;head&gt;</code></a> element. This element acts as a container for all the stuff you want to include
+                            on the HTML page that <em>isn't</em> the content you are showing to your page's viewers. This includes things like <a href="https://developer.mozilla.org/en-US/docs/Glossary/Keyword">keywords</a> and a page description that
+                            you want to appear in search results, CSS to style our content, character set declarations, and more.</li>
+                        <li><code>&lt;meta charset="utf-8"&gt;</code> — This element sets the character set your document should use&nbsp;to UTF-8&nbsp;which includes most characters from the vast majority of written languages. Essentially, it can now handle
+                            any textual content you might put on it. There is no reason not to set this&nbsp;and it can help avoid some problems later on.</li>
+                        <li><code>&lt;title&gt;&lt;/title&gt;</code> — the&nbsp;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title"><code>&lt;title&gt;</code></a>&nbsp;element.&nbsp;This sets the title of your page, which is the title
+                            that appears in the browser tab the page is loaded in. It&nbsp;is also used to describe the page when you bookmark/favorite it.</li>
+                        <li><code>&lt;body&gt;&lt;/body&gt;</code> — the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"><code>&lt;body&gt;</code></a> element. This contains <em>all</em> the content that you want to show to web users
+                            when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</li>
+                    </ul>
+                </div>
+                <h2 id="images"><a href="#images" title="Permalink to Images">Images</a></h2>
+                <div>
+                    <p>Let's turn our attention to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a> element again:</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>images/firefox-icon.png<span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>My test image<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>As we said before, it embeds an image into our page in the position it appears. It does this via the <code>src</code> (source) attribute, which contains the path to our image file.</p>
+
+                    <p>We have also included an <code>alt</code> (alternative) attribute.&nbsp;In this attribute, you specify descriptive text&nbsp;for&nbsp;users who cannot see the image, possibly&nbsp;because of the following reasons:</p>
+
+                    <ol>
+                        <li>They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.</li>
+                        <li>Something has gone wrong causing the image not to display. For example, try deliberately changing the path inside your <code>src</code> attribute to make it incorrect. If you save and reload the page, you should see something like
+                            this in place of the image:</li>
+                    </ol>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/alt-text-example.png" loading="lazy" width="108" height="36"></p>
+
+                    <p>The keywords for alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example,&nbsp;our current text of "My test image" is
+                        no good at all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth."</p>
+
+                    <p>Try coming up with some better alt text for your image now.</p>
+
+                    <div class="note notecard">
+                        <p>Find out more about accessibility in our <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility">accessibility learning module</a>.</p>
+                    </div>
+                </div>
+                <h2 id="marking_up_text"><a href="#marking_up_text" title="Permalink to Marking up text">Marking up text</a></h2>
+                <div>
+                    <p>This section will cover some of the essential HTML elements you'll use for marking up the text.</p>
+                </div>
+                <h3 id="headings"><a href="#headings" title="Permalink to Headings">Headings</a></h3>
+                <div>
+                    <p>Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title,&nbsp;chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading
+                        levels, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h1&gt;</code></a>–<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h6&gt;</code></a>,
+                        although you'll commonly only use 3 to 4 at most:</p>
+
+<pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>My main title<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>My top level heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>My subheading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span><span class="token punctuation">&gt;</span></span>My sub-subheading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>Now try&nbsp;adding a suitable title to your HTML page&nbsp;just above your <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a> element.</p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: You'll see that your heading level 1 has an implicit style. Don't use heading elements to make text bigger or bold, because they are used for <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML#text_content">accessibility</a>                            and <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals#why_do_we_need_structure">other reasons such as SEO</a>. Try to create a meaningful sequence of headings on your pages,
+                            without skipping levels.</p>
+                    </div>
+                </div>
+                <h3 id="paragraphs"><a href="#paragraphs" title="Permalink to Paragraphs">Paragraphs</a></h3>
+                <div>
+                    <p>As explained above, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This is a single paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>Add your sample text (you should have it from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like"><em>What will your website look like?</em></a>) into one or a few
+                        paragraphs, placed directly below your <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a> element.</p>
+                </div>
+                <h3 id="lists"><a href="#lists" title="Permalink to Lists">Lists</a></h3>
+                <div>
+                    <p>A lot of the web's content is lists&nbsp;and&nbsp;HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:</p>
+
+                    <ol>
+                        <li><strong>Unordered lists</strong> are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a>                            element.</li>
+                        <li><strong>Ordered lists</strong> are for lists where the order of the items does matter, such as a recipe. These are wrapped in an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol"><code>&lt;ol&gt;</code></a>                            element.</li>
+                    </ol>
+
+                    <p>Each item inside the lists is put inside an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"><code>&lt;li&gt;</code></a> (list item) element.</p>
+
+                    <p>For example, if we wanted to turn the part of the following paragraph fragment into a list</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>At Mozilla, we’re a global community of technologists, thinkers, and builders working together ... <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>We could modify the markup to&nbsp;this</p>
+
+                    <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>At Mozilla, we’re a global community of<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>technologists<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>thinkers<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>builders<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>working together ... <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+                    <p>Try adding an ordered or unordered list to your example page.</p>
+                </div>
+                <h2 id="links"><a href="#links" title="Permalink to Links">Links</a></h2>
+                <div>
+                    <p>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code></a> — "a" being the short form
+                        for "anchor". To make text within your paragraph into a link, follow&nbsp;these steps:</p>
+
+                    <ol>
+                        <li>Choose some text. We chose the text "Mozilla Manifesto".</li>
+                        <li>Wrap the text in an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code></a> element, as shown below:
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><span class="token punctuation">&gt;</span></span>Mozilla Manifesto<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                        <li>Give the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code></a> element an <code>href</code> attribute, as shown below:
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Mozilla Manifesto<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                        <li>Fill in the value of this attribute with the web address that you want the link to link to:
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://www.mozilla.org/en-US/about/manifesto/<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Mozilla Manifesto<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                    </ol>
+
+                    <p>You might get unexpected results if you omit the <code>https://</code> or <code>http://</code> part, called the <em>protocol</em>, at the beginning of the web address. After making a link, click it to make sure it is sending you where
+                        you wanted it to.</p>
+
+                    <div class="note notecard">
+                        <p><code>href</code> might appear like a rather obscure choice for an attribute name at first. If you are having trouble remembering it, remember that it stands for <em><strong>h</strong>ypertext <strong>ref</strong>erence</em>.</p>
+                    </div>
+
+                    <p>Add a link to your page now, if you haven't already done so.</p>
+                </div>
+                <h2 id="conclusion"><a href="#conclusion" title="Permalink to Conclusion">Conclusion</a></h2>
+                <div>
+                    <p>If you have followed all the instructions in this article, you should end up with a page that looks like the one below (you can also <a href="https://mdn.github.io/beginner-html-site/" class="external" rel=" noopener">view it here</a>):<br>
+                        <br>
+                        <img alt="A web page screenshot showing a firefox logo, a heading saying mozilla is cool, and two paragraphs of filler text" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/finished-test-page-small.png" style="display: block; margin: 0px auto;"
+                            loading="lazy" width="716" height="838"></p>
+
+                    <p>If you get stuck, you can always compare your work with our <a href="https://github.com/mdn/beginner-html-site/blob/gh-pages/index.html" class="external" rel=" noopener">finished example code</a> on GitHub.</p>
+
+                    <p>Here, we have only really scratched the surface of HTML. To find out more, go to our <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">Learning HTML</a> topic.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="CSS_basics">
+                <header>CSS basics</header>
+                <h1><a href="#css_basics-summary" title="Permalink to CSS basics">CSS basics</a></h1>
+                <div>
+                    <div class="summary">
+                        <p>CSS (Cascading Style Sheets) is the code that styles web content. <em>CSS basics</em> walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location
+                            in the (webpage) layout? How do I decorate my webpage with background images and colors?</p>
+                    </div>
+                </div>
+
+                <h2 id="what_is_css"><a href="#what_is_css" title="Permalink to What is CSS?">What is CSS?</a></h2>
+                <div>
+                    <p>Like HTML, CSS is not a programming language. It's not a markup language either. <strong>CSS is a style sheet language.</strong> CSS is what you use to selectively style HTML elements. For example, this CSS selects paragraph text,
+                        setting the color to red:</p>
+
+                    <pre class="brush: css notranslate"><code><span class="token selector">p</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>Let's try it out! Using a text editor, paste the three lines of CSS (above) into a new file. Save the file as <code>style.css</code> in a directory named <code>styles</code>.</p>
+
+                    <p>To make the code work, we still need to apply this CSS (above) to your HTML document. Otherwise, the styling won't change the appearance of the HTML. (If you haven't been following our project, pause here to read <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files">Dealing with files</a>                        and <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML basics</a>.)</p>
+
+                    <ol>
+                        <li>Open your <code>index.html</code> file. Paste the following line in the head (between the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"><code>&lt;head&gt;</code></a> and <code>&lt;/head&gt;</code> tags):
+
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>styles/style.css<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                        <li>Save <code>index.html</code> and load it in your browser. You should see something like this:</li>
+                    </ol>
+
+                    <p><img alt="A mozilla logo and some paragraphs. The paragraph text has been styled red by our css." src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-styled.png" style="display: block; margin: 0px auto;"
+                            loading="lazy" width="711" height="832">If your paragraph text is red, congratulations! Your CSS is working.</p>
+                </div>
+                <h3 id="anatomy_of_a_css_ruleset"><a href="#anatomy_of_a_css_ruleset" title="Permalink to Anatomy of a CSS ruleset">Anatomy of a CSS ruleset</a></h3>
+                <div>
+                    <p>Let's dissect the CSS code for red paragraph text to understand how it works :</p>
+
+                    <p><img alt="CSS p declaration color red" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/css-declaration-small.png" loading="lazy" width="850" height="480"></p>
+
+                    <p>The whole structure is called a <strong>ruleset. </strong>(The term <em>ruleset</em> is often referred to as just <em>rule.)</em> Note the names of the individual parts:</p>
+
+                    <dl>
+                        <dt>Selector</dt>
+                        <dd>This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> elements). To
+                            style a different element, change the selector.</dd>
+                        <dt>Declaration</dt>
+                        <dd>This is a single rule like <code>color: red;</code>. It specifies which of the element's <strong>properties</strong> you want to style.</dd>
+                        <dt>Properties</dt>
+                        <dd>These are ways in which you can style an HTML element. (In this example, <code>color</code> is a property of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> elements.) In CSS,
+                            you choose which properties you want to affect in the rule.</dd>
+                        <dt>Property value</dt>
+                        <dd>To the right of the property—after the colon—there is the <strong>property value</strong>. This chooses one out of many possible appearances for a given property. (For example, there are many <code>color</code> values in addition
+                            to
+                            <code>red</code>.)</dd>
+                    </dl>
+
+                    <p>Note the other important parts of the syntax:</p>
+
+                    <ul>
+                        <li>Apart from the selector, each ruleset must be wrapped in curly braces. (<code>{}</code>)</li>
+                        <li>Within each declaration, you must use a colon (<code>:</code>) to separate the property from its value or values.</li>
+                        <li>Within each ruleset, you must use a semicolon (<code>;</code>) to separate each declaration from the next one.</li>
+                    </ul>
+
+                    <p>To modify multiple property values in one ruleset, write them separated by semicolons, like this:</p>
+
+                    <pre class="brush: css notranslate"><code><span class="token selector">p</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 500px<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 1px solid black<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+                <h3 id="selecting_multiple_elements"><a href="#selecting_multiple_elements" title="Permalink to Selecting multiple elements">Selecting multiple elements</a></h3>
+                <div>
+                    <p>You can also select multiple elements and apply a single ruleset to all of them. Separate multiple selectors by commas. For example:</p>
+
+                    <pre class="brush: css notranslate"><code><span class="token selector">p, li, h1</span> <span class="token punctuation">{</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
+                <h3 id="different_types_of_selectors"><a href="#different_types_of_selectors" title="Permalink to Different types of selectors">Different types of selectors</a></h3>
+                <div>
+                    <p>There are many different types of selectors. The examples above use <strong>element selectors</strong>, which select all elements of a given type. But we can make more specific selections as well. Here are some of the more common types
+                        of selectors:</p>
+
+                    <table class="standard-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Selector name</th>
+                                <th scope="col">What does it select</th>
+                                <th scope="col">Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Element selector (sometimes called a tag or type selector)</td>
+                                <td>All HTML elements of the specified type.</td>
+                                <td><code>p</code><br> selects <code>&lt;p&gt;</code></td>
+                            </tr>
+                            <tr>
+                                <td>ID selector</td>
+                                <td>The element on the page with the specified ID. On a given HTML page, each id value should be unique.</td>
+                                <td><code>#my-id</code><br> selects <code>&lt;p id="my-id"&gt;</code> or <code>&lt;a id="my-id"&gt;</code></td>
+                            </tr>
+                            <tr>
+                                <td>Class selector</td>
+                                <td>The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.</td>
+                                <td><code>.my-class</code><br> selects <code>&lt;p class="my-class"&gt;</code> and <code>&lt;a class="my-class"&gt;</code></td>
+                            </tr>
+                            <tr>
+                                <td>Attribute selector</td>
+                                <td>The element(s) on the page with the specified attribute.</td>
+                                <td><code>img[src]</code><br> selects <code>&lt;img src="myimage.png"&gt;</code> but not <code>&lt;img&gt;</code></td>
+                            </tr>
+                            <tr>
+                                <td>Pseudo-class selector</td>
+                                <td>The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)</td>
+                                <td><code>a:hover</code><br> selects <code>&lt;a&gt;</code>, but only when the mouse pointer is hovering over the link.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>There are many more selectors to discover. To learn more, see the MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors">Selectors guide</a>.</p>
+                </div>
+                <h2 id="fonts_and_text"><a href="#fonts_and_text" title="Permalink to Fonts and text">Fonts and text</a></h2>
+                <div>
+                    <p>Now that we've explored some CSS fundamentals, let's improve the appearance of the example by adding more rules and information to the <code>style.css</code> file.</p>
+
+                    <ol>
+                        <li>First, find the <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like#font">output from Google Fonts</a> that you previously saved from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like">What will your website look like?</a>.
+                            Add the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"><code>&lt;link&gt;</code></a> element somewhere inside your <code>index.html</code>'s head (anywhere between the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head"><code>&lt;head&gt;</code></a>                            and <code>&lt;/head&gt;</code> tags). It looks something like this:
+
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://fonts.googleapis.com/css?family=Open+Sans<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span></code></pre>                            This code links your page to a style sheet that loads the Open Sans font family with your webpage.</li>
+                        <li>Next, delete the existing rule you have in your <code>style.css</code> file. It was a good test, but let's not continue with lots of red text.</li>
+                        <li>Add the following lines (shown below), replacing the <code>font-family</code> assignment with your <code>font-family</code> selection from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like#font">What will your website look like?</a>.
+                            The property <code>font-family</code> refers to the font(s) you want to use for text. This rule defines a global base font and font size for the whole page. Since <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><code>&lt;html&gt;</code></a>                            is the parent element of the whole page, all elements inside it inherit the same <code>font-size</code> and <code>font-family</code>.
+                            <pre class="brush: css notranslate"><code><span class="token selector">html</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span> <span class="token comment">/* px means "pixels": the base font size is now 10 pixels high  */</span>
+  <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Open Sans"</span><span class="token punctuation">,</span> sans-serif<span class="token punctuation">;</span> <span class="token comment">/* this should be the rest of the output you got from Google fonts */</span>
+<span class="token punctuation">}</span></code></pre>
+
+                            <div class="note notecard">
+                                <p><strong>Note</strong>: Anything in CSS&nbsp; between <code>/*</code> and <code>*/</code> is a <strong>CSS comment</strong>. The browser ignores comments as it renders the code. CSS comments are a way for you to write helpful
+                                    notes about your code or logic.</p>
+                            </div>
+                        </li>
+                        <li>Now let's set font sizes for elements that will have text inside the HTML body (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h1&gt;</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"><code>&lt;li&gt;</code></a>,
+                            and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a>). We'll also center the heading. Finally, let's expand the second ruleset (below) with settings for line height and letter
+                            spacing to make body content more readable.
+                            <pre class="brush: css notranslate"><code><span class="token selector">h1</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 60px<span class="token punctuation">;</span>
+  <span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token selector">p, li</span> <span class="token punctuation">{</span>
+  <span class="token property">font-size</span><span class="token punctuation">:</span> 16px<span class="token punctuation">;</span>
+  <span class="token property">line-height</span><span class="token punctuation">:</span> 2<span class="token punctuation">;</span>
+  <span class="token property">letter-spacing</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+                        </li>
+                    </ol>
+
+                    <p>Adjust the <code>px</code> values as you like. Your work-in-progress should look similar to this:</p>
+
+                    <p><img alt="a mozilla logo and some paragraphs. a sans-serif font has been set, the font sizes, line height and letter spacing are adjusted, and the main page heading has been centered" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-font-small.png"
+                            loading="lazy" width="921" height="1020"></p>
+                </div>
+                <h2 id="css_all_about_boxes"><a href="#css_all_about_boxes" title="Permalink to CSS: all about boxes">CSS: all about boxes</a></h2>
+                <div>
+                    <p>Something you'll notice about writing CSS: a lot of it is about boxes. This includes setting size, color, and position. Most HTML elements on your page can be thought of as boxes sitting on top of other boxes.</p>
+
+                    <p><img alt="a big stack of boxes or crates sat on top of one another" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/boxes.jpg" loading="lazy" width="640" height="463"></p>
+
+                    <p>CSS layout is mostly based on the <em>box model.</em> Each box taking up space on your page has properties like:</p>
+
+                    <ul>
+                        <li><code>padding</code>, the space around the content. In the example below, it is the space around the paragraph text.</li>
+                        <li><code>border</code>, the solid line that is just outside the padding.</li>
+                        <li><code>margin</code>, the space around the outside of the border.</li>
+                    </ul>
+
+                    <p><img alt="three boxes sat inside one another. From outside to in they are labelled margin, border and padding" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/box-model.png" style="display: block; margin: 0px auto;"
+                            loading="lazy" width="574" height="450"></p>
+
+                    <p>In this section we also use:</p>
+
+                    <ul>
+                        <li><code>width</code> (of an element).</li>
+                        <li><code>background-color</code>, the color behind an element's content and padding.</li>
+                        <li><code>color</code>, the color of an element's content (usually text).</li>
+                        <li><code>text-shadow</code> sets a drop shadow on the text inside an element.</li>
+                        <li><code>display</code> sets the display mode of an element. (keep reading to learn more)</li>
+                    </ul>
+
+                    <p>To continue, let's add more CSS. Keep adding these new rules at the bottom of <code>style.css</code>. Experiment with changing values to see what happens.</p>
+                </div>
+                <h3 id="changing_the_page_color"><a href="#changing_the_page_color" title="Permalink to Changing the page color">Changing the page color</a></h3>
+                <div><pre class="brush: css notranslate"><code><span class="token selector">html</span> <span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #00539F<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>This rule sets a background color for the entire page. Change the color code to <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like#theme_color">the color you chose in What will my website look like?</a>.</p>
+                </div>
+                <h3 id="styling_the_body"><a href="#styling_the_body" title="Permalink to Styling the body">Styling the body</a></h3>
+                <div><pre class="brush: css notranslate"><code><span class="token selector">body</span> <span class="token punctuation">{</span>
+  <span class="token property">width</span><span class="token punctuation">:</span> 600px<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> #FF9500<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 0 20px 20px 20px<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 5px solid black<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>There are several declarations for the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"><code>&lt;body&gt;</code></a>&nbsp;element. Let's go through these line-by-line:</p>
+
+                    <ul>
+                        <li><code>width: 600px;</code> This forces the body to always be 600 pixels wide.</li>
+                        <li><code>margin: 0 auto;</code> When you set two values on a property like <code>margin</code> or <code>padding</code>, the first value affects the element's top <em>and</em> bottom side (setting it to <code>0</code> in this case);
+                            the second value affects the left <em>and</em> right side. (Here, <code>auto</code> is a special value that divides the available horizontal space evenly between left and right). You can also use one, three, or four values,
+                            as documented in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin#syntax">Margin Syntax</a>.</li>
+                        <li><code>background-color: #FF9500;</code> This sets the element's background color. This project uses a reddish orange for the body background color, as opposed to dark blue for the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><code>&lt;html&gt;</code></a>                            element. (Feel free to experiment.)</li>
+                        <li><code>padding: 0 20px 20px 20px;</code> This sets four values for padding. The goal is to put&nbsp; some space around the content. In this example, there is no padding on the top of the body, and 20 pixels on the right, bottom
+                            and left. The values set top, right, bottom, left, in that order. As with <code>margin</code>, you can use one, two, three, or four values, as documented in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding#syntax">Padding Syntax</a>.</li>
+                        <li><code>border: 5px solid black;</code> This sets values for the width, style and color of the border. In this case, it's a five-pixel–wide, solid black border, on all sides of the body.</li>
+                    </ul>
+                </div>
+                <h3 id="positioning_and_styling_the_main_page_title"><a href="#positioning_and_styling_the_main_page_title" title="Permalink to Positioning and styling the main page title">Positioning and styling the main page title</a></h3>
+                <div><pre class="brush: css notranslate"><code><span class="token selector">h1</span> <span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+  <span class="token property">padding</span><span class="token punctuation">:</span> 20px 0<span class="token punctuation">;</span>
+  <span class="token property">color</span><span class="token punctuation">:</span> #00539F<span class="token punctuation">;</span>
+  <span class="token property">text-shadow</span><span class="token punctuation">:</span> 3px 3px 1px black<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>You may have noticed there's a horrible gap at the top of the body. That happens because browsers apply default styling to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h1&gt;</code></a>                        element (among others). That might seem like a bad idea, but the intent is to provide basic readability for unstyled pages. To eliminate the gap, we overwrite the browser's default styling with the setting <code>margin: 0;</code>.</p>
+
+                    <p>Next, we set the heading's top and bottom padding to 20 pixels.</p>
+
+                    <p>Following that, we set the heading text to be the same color as the HTML background color.</p>
+
+                    <p>Finally, <code>text-shadow</code> applies a shadow to the text content of the element. Its four values are:</p>
+
+                    <ul>
+                        <li>The first pixel value sets the <strong>horizontal offset</strong> of the shadow from the text: how far it moves across.</li>
+                        <li>The second pixel value sets the <strong>vertical offset</strong> of the shadow from the text: how far it moves down.</li>
+                        <li>The third pixel value sets the <strong>blur radius</strong> of the shadow. A larger value produces a more fuzzy-looking shadow.</li>
+                        <li>The fourth value sets&nbsp;the base color of the shadow.</li>
+                    </ul>
+
+                    <p>Try experimenting with different values to see how it changes the appearance.</p>
+                </div>
+                <h3 id="centering_the_image"><a href="#centering_the_image" title="Permalink to Centering the image">Centering the image</a></h3>
+                <div><pre class="brush: css notranslate"><code><span class="token selector">img</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>Next, we center the image to make it look better. We could use the <code>margin: 0 auto</code> trick again as we did for the body. But there are differences that require an additional setting to make the CSS work.&nbsp;</p>
+
+                    <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body"><code>&lt;body&gt;</code></a> is a <strong>block</strong> element, meaning it takes up space on the page. A block element can have margin and other spacing
+                        values applied to it. In contrast, images are <strong>inline</strong> elements. It is not possible to apply margin or spacing values to inline elements. So to apply margins to the image, we must give the image block-level behavior
+                        using <code>display: block;</code>.</p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: The instructions above assume that you're using an image smaller than the width set on the body. (600 pixels) If your image is larger, it will overflow the body, spilling into the rest of the page. To fix
+                            this, you can either: 1) reduce the image width using a <a href="https://en.wikipedia.org/wiki/Raster_graphics_editor" class="external" rel=" noopener">graphics editor</a>, or 2)&nbsp; use CSS to size the image by setting the
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/width"><code>width</code></a> property on the <code>&lt;img&gt;</code> element with a smaller value.</p>
+                    </div>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: Don't be too concerned if you don't completely understand <code>display: block;</code> or the differences between a block element and an inline element. It will make more sense as you continue your study
+                            of CSS. You can find more information about different display values on MDN's <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display reference page</a>.</p>
+                    </div>
+                </div>
+                <h2 id="conclusion"><a href="#conclusion" title="Permalink to Conclusion">Conclusion</a></h2>
+                <div>
+                    <p>If you followed all the instructions in this article, you should have a page that looks similar to this one:</p>
+
+                    <p><img alt="a mozilla logo, centered, and a header and paragraphs. It now looks nicely styled, with a blue background for the whole page and orange background for the centered main content strip." src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics/website-screenshot-final.png"
+                            loading="lazy" width="940" height="1084"></p>
+
+                    <p>(You can <a href="https://mdn.github.io/beginner-html-site-styled/" class="external" rel=" noopener">view our version here</a>.) If you get stuck, you can always compare your work with our <a href="https://github.com/mdn/beginner-html-site-styled/blob/gh-pages/styles/style.css"
+                            class="external" rel=" noopener">finished example code on GitHub</a>.</p>
+
+                    <p>In this exercise, we have just scratched the surface of CSS. To go further, see <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">Learning to style HTML using CSS</a>.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="JavaScript_basics">
+                <header>JavaScript basics</header>
+                <h1><a href="#javascript_basics-summary" title="Permalink to JavaScript basics">JavaScript basics</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p>JavaScript is a programming language that adds interactivity to your website. This happens in games, in the behavior of responses when buttons are pressed or with data entry on forms; with dynamic styling; with animation, etc.
+                            This article helps you get started with JavaScript and furthers your understanding of what is possible.</p>
+                    </div>
+                </div>
+                <h2 id="what_is_javascript"><a href="#what_is_javascript" title="Permalink to What is JavaScript?">What is JavaScript?</a></h2>
+                <div>
+                    <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/JavaScript">JavaScript</a> ("JS" for short) is a full-fledged <a href="https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_programming_language">dynamic programming language</a>                        that can add interactivity to a website. It was invented by Brendan Eich (co-founder of the Mozilla project, the Mozilla Foundation, and the Mozilla Corporation).</p>
+
+                    <p>JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p>
+
+                    <p>JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort. These include:</p>
+
+                    <ul>
+                        <li>Browser Application Programming Interfaces (<a href="https://developer.mozilla.org/en-US/docs/Glossary/API">APIs</a>) built into web browsers, providing functionality such as dynamically creating HTML and setting CSS styles; collecting
+                            and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples.</li>
+                        <li>Third-party APIs that allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook.</li>
+                        <li>Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications.</li>
+                    </ul>
+
+                    <p>It's outside the scope of this article—as a light introduction to JavaScript—to present the details of how the core JavaScript language is different from the tools listed above. You can learn more in MDN's <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript learning area</a>,
+                        as well as in other parts of MDN.</p>
+
+                    <p>The section below introduces some aspects of the core language and offers an opportunity to play with a few browser API features too. Have fun!</p>
+                </div>
+                <h2 id="a_hello_world!_example"><a href="#a_hello_world!_example" title="Permalink to A Hello world! example">A <em>Hello world!</em> example</a></h2>
+                <div>
+                    <p>JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your websites will enter a new dimension of power and creativity.</p>
+
+                    <p>However, getting comfortable with JavaScript is more challenging than getting comfortable with HTML and CSS. You may have to start small, and progress gradually. To begin, let's examine how to add JavaScript to your page for creating
+                        a
+                        <em>Hello world!</em> example. (<em>Hello world!</em> is<a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" class="external" rel=" noopener"> the standard for introductory programming examples</a>.)</p>
+
+                    <div class="warning notecard">
+                        <p><strong>Important</strong>: If you haven't been following along with the rest of our course, <a href="https://github.com/mdn/beginner-html-site-styled/archive/gh-pages.zip" class="external" rel=" noopener">download this example code</a>                            and use it as a starting point.</p>
+                    </div>
+
+                    <ol>
+                        <li>Go to your test site and create a new folder named <code>scripts</code>. Within the scripts folder, create a new file called <code>main.js</code>, and save it.</li>
+                        <li>In your <code>index.html</code> file, enter this code on a new line, just before the closing <code>&lt;/body&gt;</code> tag:
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>scripts/main.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                        <li>This is doing the same job as the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"><code>&lt;link&gt;</code></a> element for CSS. It applies the JavaScript to the page, so it can have an effect on the HTML
+                            (along with the CSS, and anything else on the page).</li>
+                        <li>Add this code to the <code>main.js</code> file:
+                            <pre class="brush: js notranslate"><code><span class="token keyword">const</span> myHeading <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+myHeading<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'Hello world!'</span><span class="token punctuation">;</span></code></pre>
+                        </li>
+                        <li>Make sure the HTML and JavaScript files are saved. Then load <code>index.html</code> in your browser. You should see something like this:<img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics/hello-world.png"
+                                loading="lazy" width="806" height="236"></li>
+                    </ol>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: The reason the instructions (above) place the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"><code>&lt;script&gt;</code></a> element near the bottom of the HTML file is that <strong>the browser reads code in the order it appears in the file</strong>.</p>
+
+                        <p>If the JavaScript loads first and it is supposed to affect the HTML that hasn't loaded yet, there could be problems. Placing JavaScript near the bottom of an HTML page is one way to accommodate this dependency. To learn more about
+                            alternative approaches, see <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#script_loading_strategies">Script loading strategies</a>.</p>
+                    </div>
+                </div>
+                <h3 id="what_happened"><a href="#what_happened" title="Permalink to What happened?">What happened?</a></h3>
+                <div>
+                    <p>The heading text changed to <em>Hello world!</em> using JavaScript. You did this by using a function called <code><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" title="querySelector()"><code>querySelector()</code></a>
+                        </code> to grab a reference to your heading, and then store it in a variable called <code>myHeading</code>. This is similar to what we did using CSS selectors. When you want to do something to an element, you need to select it first.</p>
+
+                    <p>Following that, the code set the value of the <code>myHeading</code> variable's <code><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" title="textContent"><code>textContent</code></a>
+                        </code> property (which represents the content of the heading) to <em>Hello world!</em>.</p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: Both of the features you used in this exercise are parts of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">Document Object Model (DOM) API</a>, which has the capability
+                            to manipulate documents.</p>
+                    </div>
+                </div>
+                <h2 id="language_basics_crash_course"><a href="#language_basics_crash_course" title="Permalink to Language basics crash course">Language basics crash course</a></h2>
+                <div>
+                    <p>To give you a better understanding of how JavaScript works, let's explain some of the core features of the language. It's worth noting that these features are common to all programming languages. If you master these fundamentals, you
+                        have a head start on coding in other languages too!</p>
+
+                    <div class="warning notecard">
+                        <p><strong>Important</strong>: In this article, try entering the example code lines into your JavaScript console to see what happens. For more details on JavaScript consoles, see <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools">Discover browser developer tools</a>.</p>
+                    </div>
+                </div>
+                <h3 id="variables"><a href="#variables" title="Permalink to Variables">Variables</a></h3>
+                <div>
+                    <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Variable">Variables</a> are containers that store values. You start by declaring a variable with the <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var">var</a></code>                        (less recommended, dive deeper for the explanation) or the <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let">let</a></code> keyword, followed by the name you give to the variable:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myVariable<span class="token punctuation">;</span></code></pre>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: A semicolon at the end of a line indicates where a statement ends. It is only required when you need to separate statements on a single line. However, some people believe it's good practice to have semicolons
+                            at the end of each statement. There are other rules for when you should and shouldn't use semicolons. For more details, see <a href="http://news.codecademy.com/your-guide-to-semicolons-in-javascript/" class="external" rel=" noopener">Your Guide to Semicolons in JavaScript</a>.</p>
+                    </div>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: You can name a variable nearly anything, but there are some restrictions. (See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variables">this section about naming rules</a>.)
+                            If you are unsure, you can <a href="https://mothereff.in/js-variables" class="external" rel=" noopener">check your variable name</a> to see if it's valid.</p>
+                    </div>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: JavaScript is case sensitive. This means <code>myVariable</code> is not the same as <code>myvariable</code>. If you have problems in your code, check the case!</p>
+                    </div>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: For more details about the difference between <code>var</code> and <code>let</code>, see <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables#the_difference_between_var_and_let">The difference between var and let</a>.</p>
+                    </div>
+
+                    <p>After declaring a variable, you can give it a value:</p>
+
+                    <pre class="brush: js notranslate"><code>myVariable <span class="token operator">=</span> <span class="token string">'Bob'</span><span class="token punctuation">;</span>
+</code></pre>
+
+                    <p>Also, you can do both these operations on the same line:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myVariable <span class="token operator">=</span> <span class="token string">'Bob'</span><span class="token punctuation">;</span></code></pre>
+
+                    <p>You retrieve the value by calling the variable name:</p>
+
+                    <pre class="brush: js notranslate"><code>myVariable<span class="token punctuation">;</span></code></pre>
+
+                    <p>After assigning a value to a variable, you can change it later in the code:</p>
+
+                    <pre class="notranslate">let myVariable = 'Bob';
+myVariable = 'Steve';</pre>
+
+                    <p>Note that variables may hold values that have different <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">data types</a>:</p>
+
+                    <table class="standard-table">
+                        <thead>
+                            <tr>
+                                <th scope="row">Variable</th>
+                                <th scope="col">Explanation</th>
+                                <th scope="col">Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Glossary/String">String</a></th>
+                                <td>This is a sequence of text known as a string. To signify that the value is a string, enclose it in single quote marks.</td>
+                                <td><code>let myVariable = 'Bob';</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Number">Number</a></th>
+                                <td>This is a number. Numbers don't have quotes around them.</td>
+                                <td><code>let myVariable = 10;</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Boolean">Boolean</a></th>
+                                <td>This is a True/False value. The words <code>true</code> and <code>false</code> are special keywords that don't need quote marks.</td>
+                                <td><code>let myVariable = true;</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Glossary/array">Array</a></th>
+                                <td>This is a structure that allows you to store multiple values in a single reference.</td>
+                                <td><code>let myVariable = [1,'Bob','Steve',10];</code><br> Refer to each member of the array like this:<br>
+                                    <code>myVariable[0]</code>, <code>myVariable[1]</code>, etc.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a href="https://developer.mozilla.org/en-US/docs/Glossary/Object">Object</a></th>
+                                <td>This can be anything. Everything in JavaScript is an object and can be stored in a variable. Keep this in mind as you learn.</td>
+                                <td><code>let myVariable = document.querySelector('h1');</code><br> All of the above examples too.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>So why do we need variables? Variables are necessary to do anything interesting in programming. If values couldn't change, then you couldn't do anything dynamic, like personalize a greeting message or change an image displayed in an
+                        image gallery.
+                    </p>
+                </div>
+                <h3 id="comments"><a href="#comments" title="Permalink to Comments">Comments</a></h3>
+                <div>
+                    <p>Comments are snippets of text that can be added along with code. The browser ignores text marked as comments. You can write comments in JavaScript just as you can in CSS:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token comment">/*
+Everything in between is a comment.
+*/</span></code></pre>
+
+                    <p>If your comment contains no line breaks, it's an option to put it behind two slashes like this:</p>
+
+                    <pre class="brush: js notranslate" style="font-size: 14px;"><code><span class="token comment">// This is a comment</span>
+</code></pre></div>
+                <h3 id="operators"><a href="#operators" title="Permalink to Operators">Operators</a></h3>
+                <div>
+                    <p>An <code><a href="https://developer.mozilla.org/en-US/docs/Glossary/Operator">operator</a></code> is a mathematical symbol that produces a result based on two values (or variables). In the following table, you can see some of the simplest
+                        operators, along with some examples to try in the JavaScript console.</p>
+
+                    <table class="standard-table">
+                        <thead>
+                            <tr>
+                                <th scope="row">Operator</th>
+                                <th scope="col">Explanation</th>
+                                <th scope="col">Symbol(s)</th>
+                                <th scope="col">Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Addition</th>
+                                <td>Add two numbers together or combine two strings.</td>
+                                <td><code>+</code></td>
+                                <td><code>6 + 9;<br>
+    'Hello ' + 'world!';</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Subtraction, Multiplication, Division</th>
+                                <td>These do what you'd expect them to do in basic math.</td>
+                                <td><code>-</code>, <code>*</code>, <code>/</code></td>
+                                <td><code>9 - 3;<br>
+    8 * 2; // multiply in JS is an asterisk<br>
+    9 / 3;</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Assignment</th>
+                                <td>As you've seen already: this assigns a value to a variable.</td>
+                                <td><code>=</code></td>
+                                <td><code>let myVariable = 'Bob';</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Equality</th>
+                                <td>This performs a test to see if two values are equal. It returns a <code>true</code>/<code>false</code> (Boolean) result.</td>
+                                <td><code>===</code></td>
+                                <td><code>let myVariable = 3;<br>
+    myVariable === 4;</code></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Not, Does-not-equal</th>
+                                <td>This returns the logically opposite value of what it precedes. It turns a <code>true</code> into a <code>false</code>, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values
+                                    are
+                                    <em>not</em> equal.</td>
+                                <td><code>!</code>, <code>!==</code></td>
+                                <td>
+                                    <p>For "Not", the basic expression is <code>true</code>, but the comparison returns <code>false</code> because we negate it:</p>
+
+                                    <p><code>let myVariable = 3;<br>
+     !(myVariable === 3);</code></p>
+
+                                    <p>"Does-not-equal" gives basically the same result with different syntax. Here we are testing "is <code>myVariable</code> NOT equal to 3". This returns<code> false</code> because <code>myVariable</code> IS equal to 3:</p>
+
+                                    <p><code>let myVariable = 3;<br>
+     myVariable !== 3;</code></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p>There are a lot more operators to explore, but this is enough for now. See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">Expressions and operators</a> for a complete list.</p>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: Mixing data types can lead to some strange results when performing calculations. Be careful that you are referring to your variables correctly, and getting the results you expect. For example, enter <code>'35' + '25'</code>                            into your console. Why don't you get the result you expected? Because the quote marks turn the numbers into strings, so you've ended up concatenating strings rather than adding numbers. If you enter <code>35 + 25</code> you'll
+                            get the total of the two numbers.</p>
+                    </div>
+                </div>
+                <h3 id="conditionals"><a href="#conditionals" title="Permalink to Conditionals">Conditionals</a></h3>
+                <div>
+                    <p>Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the <code>if ... else</code> statement. For example:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">let</span> iceCream <span class="token operator">=</span> <span class="token string">'chocolate'</span><span class="token punctuation">;</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span>iceCream <span class="token operator">===</span> <span class="token string">'chocolate'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Yay, I love chocolate ice cream!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Awwww, but chocolate is my favorite...'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>The expression inside the <code>if( ... )</code> is the test. This uses the identity operator (as described above) to compare the variable <code>iceCream</code> with the string <code>chocolate</code> to see if the two are equal. If
+                        this comparison returns <code>true</code>, the first block of code runs. If the comparison is not true, the second block of code—after the <code>else</code> statement—runs instead.</p>
+                </div>
+                <h3 id="functions"><a href="#functions" title="Permalink to Functions">Functions</a></h3>
+                <div>
+                    <p><a href="https://developer.mozilla.org/en-US/docs/Glossary/Function">Functions</a> are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function
+                        name in your code. This is a good alternative to repeatedly writing the same code. You have already seen some uses of functions previously. For example:</p>
+
+                    <ol>
+                        <li>
+                            <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myVariable <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                        </li>
+                        <li>
+                            <pre class="brush: js notranslate"><code><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'hello!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                        </li>
+                    </ol>
+
+                    <p>These functions, <code>document.querySelector</code> and <code>alert</code>, are built into the browser.</p>
+
+                    <p>If you see something which looks like a variable name, but it's followed by parentheses— <code>()</code> —it is likely a function. Functions often take <a href="https://developer.mozilla.org/en-US/docs/Glossary/Argument">arguments</a>:
+                        bits of data they need to do their job. Arguments go inside the parentheses, separated by commas if there is more than one argument.</p>
+
+                    <p>For example, the <code>alert()</code> function makes a pop-up box appear inside the browser window, but we need to give it a string as an argument to tell the function what message to display.</p>
+
+                    <p>You can also define your own functions. In the next example, we create a simple function which takes two numbers as arguments and multiplies them:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">function</span> <span class="token function">multiply</span><span class="token punctuation">(</span><span class="token parameter">num1<span class="token punctuation">,</span>num2</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> result <span class="token operator">=</span> num1 <span class="token operator">*</span> num2<span class="token punctuation">;</span>
+  <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>Try running this in the console; then test with several arguments. For example:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token function">multiply</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">multiply</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">,</span> <span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">multiply</span><span class="token punctuation">(</span><span class="token number">0.5</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+                    <div class="note notecard">
+                        <p><strong>Note</strong>: The <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return"><code>return</code></a> statement tells the browser to return the <code>result</code> variable out of the
+                            function so it is available to use. This is necessary because variables defined inside functions are only available inside those functions. This is called variable <a href="https://developer.mozilla.org/en-US/docs/Glossary/Scope">scoping</a>.
+                            (Read more about <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#variable_scope">variable scoping</a>.)</p>
+                    </div>
+                </div>
+                <h3 id="events"><a href="#events" title="Permalink to Events">Events</a></h3>
+                <div>
+                    <p>Real interactivity on a website requires event handlers. These are code structures that listen for activity in the browser, and run code in response. The most obvious example is handling the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event">click event</a>,
+                        which is fired by the browser when you click on something with your mouse. To demonstrate this, enter the following into your console, then click on the current webpage:</p>
+
+                    <pre class="brush: js notranslate"><code>document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'html'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'Ouch! Stop poking me!'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>There are many ways to attach an event handler to an element. Here we select the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html"><code>&lt;html&gt;</code></a> element, setting its <code><a href="https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onclick">onclick</a></code>                        handler property equal to an anonymous (i.e. nameless) function, which contains the code we want the click event to run.</p>
+
+                    <p>Note that</p>
+
+                    <pre class="brush: js notranslate"><code>document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'html'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+
+                    <p>is equivalent to</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myHTML <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'html'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+myHTML<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span></code></pre>
+
+                    <p>It's just shorter.</p>
+                </div>
+                <h2 id="supercharging_our_example_website"><a href="#supercharging_our_example_website" title="Permalink to Supercharging our example website">Supercharging our example website</a></h2>
+                <div>
+                    <p>With this review of JavaScript basics completed (above), let's add some new features to our example site.</p>
+
+                    <p>Before going any further, delete the current contents of your <code>main.js</code> file — the bit you added earlier during the "Hello world!" example — and save the empty file. If you don't, the existing code will clash with the new
+                        code you are about to add.</p>
+                </div>
+                <h3 id="adding_an_image_changer"><a href="#adding_an_image_changer" title="Permalink to Adding an image changer">Adding an image changer</a></h3>
+                <div>
+                    <p>In this section, you will learn how to use JavaScript and DOM API features to alternate the display of one of two images. This change will happen as a user clicks the displayed image.</p>
+
+                    <ol>
+                        <li>Choose an image you want to feature on your example site. Ideally, the image will be the same size as the image you added previously, or as close as possible.</li>
+                        <li>Save this image in your <code>images</code> folder.</li>
+                        <li>Rename the image <em>firefox2.png</em>.</li>
+                        <li>Add the JavaScript below to your <code>main.js</code> file.
+                            <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myImage <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'img'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+myImage<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">let</span> mySrc <span class="token operator">=</span> myImage<span class="token punctuation">.</span><span class="token function">getAttribute</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>mySrc <span class="token operator">===</span> <span class="token string">'images/firefox-icon.png'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      myImage<span class="token punctuation">.</span><span class="token function">setAttribute</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">,</span><span class="token string">'images/firefox2.png'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+      myImage<span class="token punctuation">.</span><span class="token function">setAttribute</span><span class="token punctuation">(</span><span class="token string">'src'</span><span class="token punctuation">,</span><span class="token string">'images/firefox-icon.png'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+                        </li>
+                        <li>Save all files and load <code>index.html</code> in the browser. Now when you click the image, it should change to the other one.</li>
+                    </ol>
+
+                    <p>This is what happened. You stored a reference to your <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a> element in the <code>myImage</code> variable. Next, you made this variable's
+                        <code>onclick</code> event handler property equal to a function with no name (an "anonymous" function). So every time this element is clicked:</p>
+
+                    <ol>
+                        <li>The code retrieves the value of the image's <code>src</code> attribute.</li>
+                        <li>The code uses a conditional to check if the <code>src</code> value is equal to the path of the original image:
+                            <ol>
+                                <li>If it is, the code changes the <code>src</code> value to the path of the second image, forcing the other image to be loaded inside the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"><code>&lt;img&gt;</code></a>                                    element.</li>
+                                <li>If it isn't (meaning it must already have changed), the <code>src</code> value swaps back to the original image path, to the original state.</li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <h3 id="adding_a_personalized_welcome_message"><a href="#adding_a_personalized_welcome_message" title="Permalink to Adding a personalized welcome message">Adding a personalized welcome message</a></h3>
+                <div>
+                    <p>Next, let's change the page title to a personalized welcome message when the user first visits the site. This welcome message will persist. Should the user leave the site and return later, we will save the message using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API">Web Storage API</a>.
+                        We will also include an option to change the user, and therefore, the welcome message.</p>
+
+                    <ol>
+                        <li>In <code>index.html</code>, add the following line just before the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"><code>&lt;script&gt;</code></a> element:
+
+                            <pre class="brush: html notranslate"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span><span class="token punctuation">&gt;</span></span>Change user<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span></code></pre>
+                        </li>
+                        <li>In <code>main.js</code>, place the following code at the bottom of the file, exactly as it is written. This takes references to the new button and the heading, storing each inside variables:
+                            <pre class="brush: js notranslate"><code><span class="token keyword">let</span> myButton <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'button'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> myHeading <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+                        </li>
+                        <li>Add the function below to set the personalized greeting. This won't do anything yet, but this will change soon.
+                            <pre class="brush: js notranslate"><code><span class="token keyword">function</span> <span class="token function">setUserName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> myName <span class="token operator">=</span> <span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">'Please enter your name.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  localStorage<span class="token punctuation">.</span><span class="token function">setItem</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">,</span> myName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  myHeading<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'Mozilla is cool, '</span> <span class="token operator">+</span> myName<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre> The <code>setUserName()</code> function contains a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt"><code>prompt()</code></a> function, which displays
+                            a dialog box, similar to <code>alert()</code>. This <code>prompt()</code> function does more than <code>alert()</code>, asking the user to enter data, and storing it in a variable after the user clicks <em>OK.</em> In this
+                            case, we are asking the user to enter a name. Next, the code calls on an API <code>localStorage</code>, which allows us to store data in the browser and retrieve it later. We use localStorage's <code>setItem()</code> function
+                            to create and store a data item called <code>'name'</code>, setting its value to the <code>myName</code> variable which contains the user's entry for the name. Finally, we set the <code>textContent</code> of the heading to
+                            a string, plus the user's newly stored name.</li>
+                        <li>Add the <code>if ... else</code> block (below). We could call this initialization code, as it structures the app when it first loads.
+                            <pre class="brush: js notranslate"><code><span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>localStorage<span class="token punctuation">.</span><span class="token function">getItem</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">setUserName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> storedName <span class="token operator">=</span> localStorage<span class="token punctuation">.</span><span class="token function">getItem</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  myHeading<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'Mozilla is cool, '</span> <span class="token operator">+</span> storedName<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre> This first line of this block uses the negation operator (logical NOT, represented by the <code>!</code>) to check whether the <code>name</code> data exists. If not, the
+                            <code>setUserName()</code> function runs to create it. If it exists (that is, the user set a user name during a previous visit), we retrieve the stored name using <code>getItem()</code> and set the <code>textContent</code>                            of the heading to a string, plus the user's name, as we did inside <code>setUserName()</code>.</li>
+                        <li>Put this <code>onclick</code> event handler (below) on the button. When clicked, <code>setUserName()</code> runs. This allows the user to enter a different name by pressing the button.
+                            <pre class="brush: js notranslate"><code>myButton<span class="token punctuation">.</span><span class="token function-variable function">onclick</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token function">setUserName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+                        </li>
+                    </ol>
+                </div>
+                <h3 id="a_user_name_of_null"><a href="#a_user_name_of_null" title="Permalink to A user name of null?">A user name of null?</a></h3>
+                <div>
+                    <p>When you run the example and get the dialog box that prompts you to enter your user name, try pressing the <em>Cancel</em> button. You should end up with a title that reads <em>Mozilla is cool, null</em>. This happens because—when
+                        you cancel the prompt—the value is set as <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null">null</a></code>. <em>Null</em> is a special value in JavaScript that refers to the
+                        absence of a value.</p>
+
+                    <p>Also, try clicking <em>OK</em> without entering a name. You should end up with a title that reads <em>Mozilla is cool,</em> for fairly obvious reasons.</p>
+
+                    <p>To avoid these problems, you could check that the user hasn't entered a blank name. Update your <code>setUserName()</code> function to this:</p>
+
+                    <pre class="brush: js notranslate"><code><span class="token keyword">function</span> <span class="token function">setUserName</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> myName <span class="token operator">=</span> <span class="token function">prompt</span><span class="token punctuation">(</span><span class="token string">'Please enter your name.'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>myName<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">setUserName</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    localStorage<span class="token punctuation">.</span><span class="token function">setItem</span><span class="token punctuation">(</span><span class="token string">'name'</span><span class="token punctuation">,</span> myName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    myHeading<span class="token punctuation">.</span>textContent <span class="token operator">=</span> <span class="token string">'Mozilla is cool, '</span> <span class="token operator">+</span> myName<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
+
+                    <p>In human language, this means: If <code>myName</code> has no value, run <code>setUserName()</code> again from the start. If it does have a value (if the above statement is not true), then store the value in <code>localStorage</code>                        and set it as the heading's text.</p>
+                </div>
+                <h2 id="conclusion"><a href="#conclusion" title="Permalink to Conclusion">Conclusion</a></h2>
+                <div>
+                    <p>If you have followed all the instructions in this article, you should end up with a page that looks something like the image below. You can also <a href="https://mdn.github.io/beginner-html-site-scripted/" class="external" rel=" noopener">view our version</a>.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics/website-screen-scripted.png" loading="lazy" width="800" height="995"></p>
+
+                    <p>If you get stuck, you can compare your work with our <a href="https://github.com/mdn/beginner-html-site-scripted/blob/gh-pages/scripts/main.js" class="external" rel=" noopener">finished example code on GitHub</a>.</p>
+
+                    <p>We have just scratched the surface of JavaScript. If you enjoyed playing, and wish to go further, take advantage of the resources listed below.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="Publishing_your_website">
+                <header>Publishing your website</header>
+                <h1><a href="#publishing_your_website" title="Permalink to Publishing your website">Publishing your website</a></h1>
+                <div>
+
+                    <div class="summary">
+                        <p>Once you finish writing the code and organizing the files that make up your website, you need to put it all online so people can find it. This article explains how to get your simple sample code online with little effort.</p>
+                    </div>
+                </div>
+                <h2 id="what_are_the_options"><a href="#what_are_the_options" title="Permalink to What are the options?">What are the options?</a></h2>
+                <div>
+                    <p>Publishing a website is a complex topic because there are many ways to go about it. This article doesn't attempt to document all the possible methods. Instead, it explains the advantages and disadvantages of three approaches that are
+                        practical for beginners. Then it steps through one method&nbsp;that can work right away for many readers.</p>
+                </div>
+                <h3 id="getting_hosting_and_a_domain_name"><a href="#getting_hosting_and_a_domain_name" title="Permalink to Getting hosting and a domain name">Getting hosting and a domain name</a></h3>
+                <div>
+                    <p>To have more control over content and website appearance, most people choose to buy web hosting and a domain name:</p>
+
+                    <ul>
+                        <li>Web hosting is rented file space on a hosting company's <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server">web server</a>. You put website files on the web server. The web server provides
+                            website content to website visitors.</li>
+                        <li>A <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_domain_name">domain name</a> is the unique address where people find your website, such as <code>http://www.mozilla.org</code>&nbsp;or <code>http://www.bbc.co.uk</code>.
+                            You can rent your domain name for as many years as you want from a <strong>domain registrar</strong>.</li>
+                    </ul>
+
+                    <p>Many professional websites go online this way.</p>
+
+                    <p>In addition, you will need a <a href="https://developer.mozilla.org/en-US/docs/Glossary/FTP">File Transfer Protocol (FTP)</a> program (see <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_much_does_it_cost#software">How much does it cost: software</a>                        for more details) to actually transfer the website files over to the server. FTP&nbsp; programs vary widely, but generally, you have to connect to your web server using details provided by your hosting company (typically username,
+                        password, hostname). Then the program shows you your local files and the web server's files in two windows, and provides a way for you to transfer files back and forth.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website/ftp.jpg" loading="lazy" width="800" height="487"></p>
+
+                    <h4 id="Tips_for_finding_hosting_and_domains">Tips for finding hosting and domains</h4>
+
+                    <ul>
+                        <li>MDN does not promote specific commercial hosting companies or domain name registrars. To find hosting companies and registrars, just search for "web hosting" and "domain names". All registrars will have a feature to allow you to
+                            check if the domain name you want is available.</li>
+                        <li>Your home or office <a href="https://developer.mozilla.org/en-US/docs/Glossary/ISP">internet service provider</a> may provide some limited hosting for a small website. The available feature set will be limited, but it might be
+                            perfect for your first experiments.</li>
+                        <li>There are also free services available like <a href="https://neocities.org/" class="external" rel=" noopener">Neocities</a>, <a href="https://sites.google.com/" class="external" rel=" noopener">Google Sites</a>, <a href="https://www.blogger.com"
+                                class="external" rel=" noopener">Blogger</a>, and <a href="https://wordpress.com/" class="external" rel=" noopener">WordPress</a>. Sometimes you get what you pay for, but sometimes these resources are good enough for your initial
+                            experiments.
+                        </li>
+                        <li>Many companies provide hosting and domains.</li>
+                    </ul>
+                </div>
+                <h3 id="using_an_online_tool_like_github_or_google_app_engine"><a href="#using_an_online_tool_like_github_or_google_app_engine" title="Permalink to Using an online tool like GitHub or Google App Engine">Using an online tool like GitHub or Google App Engine</a></h3>
+                <div>
+                    <p>Some tools let you publish your website online:</p>
+
+                    <ul>
+                        <li><a href="https://github.com/" class="external" rel=" noopener">GitHub</a> is a "social coding" site. It allows you to upload code repositories for storage in the <a href="http://git-scm.com/" class="external" rel=" noopener">Git</a>                            <strong>version control system.</strong> You can then collaborate on code projects, and the system is open-source by default, meaning that anyone in the world can find your GitHub code, use it, learn from it, and improve on
+                            it.&nbsp;GitHub has a very useful feature called <a href="https://pages.github.com/" class="external" rel=" noopener">GitHub Pages</a>, which allows you to expose website code live on the web.</li>
+                        <li><a href="https://cloud.google.com/appengine/" title="App Engine - Build Scalable Web &amp; Mobile Backends in Any Language  |  Google Cloud Platform" class="external" rel=" noopener">Google App Engine</a> is a powerful platform&nbsp;that
+                            lets you build and run applications on Google’s infrastructure — whether you need to build a multi-tiered web application from scratch or host a static website. See <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_do_you_host_your_website_on_Google_App_Engine">How do you host your website on Google App Engine?</a>                            for more information.</li>
+                    </ul>
+
+                    <p>These options are usually free, but you may outgrow the limited feature-set.</p>
+                </div>
+                <h3 id="using_a_web-based_ide_such_as_codepen"><a href="#using_a_web-based_ide_such_as_codepen" title="Permalink to Using a web-based IDE such as CodePen">Using a web-based IDE such as CodePen</a></h3>
+                <div>
+                    <p>There are a number of web apps that emulate a website development environment, allowing you to enter HTML, CSS and JavaScript, and then display the result of that code as a website — all in one browser tab.&nbsp;Generally speaking,
+                        these tools are relatively easy, great for learning, good for sharing code (for example, if you want to share a technique with or ask for debugging help from colleagues in a different office), and free (for basic features). They
+                        host your rendered page at a unique web address. However, the features are limited, and these apps usually don't provide hosting space for assets (like images).</p>
+
+                    <p>Try playing with some of these examples to find out which one works best for you:</p>
+
+                    <ul>
+                        <li PHP Debug, PHP Intelliphense, phpfmt - PHP formatter, Project Manager, Sass, SCSS Formatter, SCSS Intellisense, SCSS Refactoring, Settings Sync, SVG Viewer><a href="https://jsfiddle.net/" class="external" rel=" noopener">JSFiddle</a></li>
+                        <li><a href="https://glitch.com/" class="external" rel=" noopener">Glitch</a></li>
+                        <li><a href="https://jsbin.com/" class="external" rel=" noopener">JS Bin</a></li>
+                        <li><a href="https://codepen.io/" class="external" rel=" noopener">CodePen</a></li>
+                    </ul>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website/jsbin-screen.png" loading="lazy" width="1392" height="849"></p>
+                </div>
+                <h2 id="publishing_via_github"><a href="#publishing_via_github" title="Permalink to Publishing via GitHub">Publishing via GitHub</a></h2>
+                <div>
+                    <p>Now let's examine how to easily publish your site via GitHub Pages.</p>
+
+                    <ol>
+                        <li>First of all,&nbsp;<a href="https://github.com/" class="external" rel=" noopener">sign up for&nbsp;GitHub</a>&nbsp;and verify your email address.</li>
+                        <li>Next, you need to <a href="https://github.com/new" class="external" rel=" noopener">create a repository</a> to store files.</li>
+                        <li>On this page, in the <em>Repository name</em> box, enter <em>username</em>.github.io, where <em>username</em> is your username. For example, our friend Bob Smith would enter <em>bobsmith.github.io</em>.<br> Check the "<em>Initialize this repository with a README"</em>                            box. Then click&nbsp;<em>Create repository</em>.<img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website/github-create-repo.png" style="display: block; margin: 0px auto;"
+                                loading="lazy" width="1392" height="849"></li>
+                        <li>Drag and drop the content of your website folder&nbsp;into your repository. Then click <em>Commit changes</em>.<br>
+
+                            <div class="note notecard">
+                                <p><strong>Note</strong>: Make sure your folder has an <code>index.html</code> file.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p>Navigate your browser to <em>username</em>.github.io to see your website online. For example, for the username <em>chrisdavidmills</em>, go to&nbsp;<a href="https://chrisdavidmills.github.io/" class="external" rel=" noopener"><em>chrisdavidmills</em>.github.io</a>.</p>
+
+                            <div class="note notecard">
+                                <p><strong>Note</strong>: It may take&nbsp;a few&nbsp;minutes for your website&nbsp;to go live. If your website does not display immediately, wait a few minutes. Try again.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <p>To learn more, see&nbsp;<a href="https://help.github.com/categories/github-pages-basics/" class="external" rel=" noopener">GitHub Pages&nbsp;Help</a>.</p>
+                </div>
+            </section>
+
+            <section class="main-section" id="How_the_web_works">
+                <header>How the web works</header>
+                <h1><a href="#how_the_web_works" title="Permalink to How the web works">How the web works</a></h1>
+                <div>
+                    <div class="summary">
+                        <p><em>How the web works</em> provides a simplified view of what happens when you view a webpage in a web browser on your computer or phone.</p>
+                    </div>
+
+                    <p>This theory is not essential to writing web code in the short term, but before long you'll really start to benefit from understanding what's happening in the background.</p>
+                </div>
+                <h2 id="clients_and_servers"><a href="#clients_and_servers" title="Permalink to Clients and servers">Clients and servers</a></h2>
+                <div>
+                    <p>Computers connected to the web are called <strong>clients</strong> and <strong>servers</strong>. A simplified diagram of how they interact might look like this:</p>
+
+                    <p><img alt="Two circles representing client and server. An arrow labelled request is going from client to server, and an arrow labelled responses is going from server to client" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png"
+                            loading="lazy" width="1193" height="371"></p>
+
+                    <ul>
+                        <li>Clients are the typical web user's internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and web-accessing software available on those devices (usually a
+                            web browser like Firefox or Chrome).</li>
+                        <li>Servers are computers that store webpages, sites, or apps. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                    </ul>
+                </div>
+                <h2 id="the_other_parts_of_the_toolbox"><a href="#the_other_parts_of_the_toolbox" title="Permalink to The other parts of the toolbox">The other parts of the toolbox</a></h2>
+                <div>
+                    <p>The client and server we've described above don't tell the whole story. There are many other parts involved, and we'll describe them below.</p>
+
+                    <p>For now, let's imagine that the web is a road. On one end of the road is the client, which is like your house. On the other end of the road is the server, which is a shop you want to buy something from.</p>
+
+                    <p><img alt="" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/road.jpg" loading="lazy" width="640" height="427"></p>
+
+                    <p>In addition to the client and the server, we also need to say hello to:</p>
+
+                    <ul>
+                        <li><strong>Your internet connection</strong>: Allows you to send and receive data on the web. It's basically like the street between your house and the shop.</li>
+                        <li><strong>TCP/IP</strong>: Transmission Control Protocol and Internet Protocol are communication protocols that define how data should travel across the internet. This is like the transport mechanisms that let you&nbsp;place an order,
+                            go to the shop, and buy your goods. In our example, this is like a car&nbsp;or a bike (or however else you might get around).</li>
+                        <li><strong>DNS</strong>: Domain Name Servers are like an address book for websites. When you type a web address in your browser, the browser looks at the DNS to find the website's real address before it can retrieve the website. The
+                            browser needs to find out which server the website lives on, so it can send HTTP messages to the right place (see below). This is like looking up the address of the shop so you can access it.</li>
+                        <li><strong>HTTP</strong>: Hypertext Transfer Protocol is an application <a href="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">protocol</a> that defines a language for clients and servers to speak to each other. This
+                            is like the language you use to order your goods.</li>
+                        <li><strong>Component files</strong>: A website is made up of many different files, which are like the different parts of the goods you buy from the shop. These files come in two main types:
+                            <ul>
+                                <li><strong>Code files</strong>: Websites are built primarily from HTML, CSS, and JavaScript, though you'll meet other technologies a bit later.</li>
+                                <li><strong>Assets</strong>: This is a collective name for all the other stuff that makes up a website, such as images, music, video, Word documents, and PDFs.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <h2 id="so_what_happens_exactly"><a href="#so_what_happens_exactly" title="Permalink to So what happens, exactly?">So what happens, exactly?</a></h2>
+                <div>
+                    <p>When you type a web address into your browser (for our analogy that's like walking to the shop):</p>
+
+                    <ol>
+                        <li>The browser goes to the DNS server, and finds the real address of the server that the website lives on (you find the address&nbsp;of the shop).</li>
+                        <li>The browser sends an HTTP request message to the server, asking it to send a copy of the website to the client (you go to the shop and order your goods). This message, and all other data sent between the client and the server,
+                            is sent across your internet connection using TCP/IP.</li>
+                        <li>If the server approves the client's request, the server sends the client a "200 OK" message, which means "Of course you can look at that website! Here it is", and then starts sending the website's files to the browser as a series
+                            of small chunks called data packets (the shop gives&nbsp;you your goods, and you bring them back to your house).</li>
+                        <li>The browser assembles the small chunks into a complete web page&nbsp;and displays it to you (the goods arrive at your door — new shiny stuff, awesome!).</li>
+                    </ol>
+                </div>
+                <h2 id="order_in_which_component_files_are_parsed"><a href="#order_in_which_component_files_are_parsed" title="Permalink to Order in which component files are parsed">Order in which component files are parsed</a></h2>
+                <div>
+                    <p>Once the client’s request is approved, the server first sends back the HTML (index) file — index.html is commonly named as such, as it is the first file of a website to be parsed by the server.</p>
+
+                    <p>The HTML file can reference <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a> and <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript</a>, either in external files via <code>&lt;link&gt;</code>                        and <code>&lt;script&gt;</code> elements respectively, or embedded in the HTML page via <code>&lt;style&gt;</code> and <code>&lt;script&gt;</code> elements.</p>
+
+                    <p>From a server standpoint it is important to know the order in which these files are parsed when the response is sent back:</p>
+
+                    <ul>
+                        <li>The HTML file is parsed first and, by looking inside that file, the server recognises which CSS and JavaScript files are referenced.</li>
+                        <li>After the HTML has been parsed and a DOM tree structure has been generated from it, the linked CSS is then parsed, and styles are applied to the appropriate parts of the DOM tree. At this point, the visual representation of the
+                            page is painted to the screen, and the user sees the page.</li>
+                        <li>The JavaScript usually gets parsed and applied to the page after the HTML and CSS.</li>
+                    </ul>
+                </div>
+                <h2 id="dns_explained"><a href="#dns_explained" title="Permalink to DNS explained">DNS explained</a></h2>
+                <div>
+                    <p>Real web addresses aren't the nice, memorable strings you type into your address bar to find your favorite websites. They are special numbers that look like this: <code>63.245.215.20</code>.</p>
+
+                    <p>This is called an <a href="https://developer.mozilla.org/en-US/docs/Glossary/IP_Address">IP address</a>, and it represents a unique location on the web. However, it's not very easy to remember, is it? That's why Domain Name Servers
+                        were invented. These are special servers that match up a web address you type into your browser (like "mozilla.org") to the website's real (IP) address.</p>
+
+                    <p>Websites can be reached directly via their IP addresses. You can find the IP address of a website by typing its domain into a tool like <a href="https://ipinfo.info/html/ip_checker.php" class="external" rel=" noopener">IP Checker</a>.</p>
+                </div>
+                <h2 id="packets_explained"><a href="#packets_explained" title="Permalink to Packets explained">Packets explained</a></h2>
+                <div>
+                    <p>Earlier&nbsp;we used the term "packets" to describe the format in which the data is sent from server to client. What do we mean here? Basically, when data is sent across the web, it is sent as thousands of small chunks, so that many
+                        different web users can download the same website at the same time. If websites were sent as single big chunks, only one user could download one at a time, which obviously would make the web very inefficient and not much fun to
+                        use.
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+
+</html>
