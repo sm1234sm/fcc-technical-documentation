@@ -360,7 +360,41 @@ body {
   opacity: 1;
 }
 
+.navbar__main-list input[type="checkbox"] ~ .navbar__main-label .navbar__list-icon::before {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.navbar__main-list input[type="checkbox"]:checked ~ .navbar__main-label .navbar__list-icon::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.navbar__main-list input[type="checkbox"] ~ .navbar__main-label .navbar__list-icon::after {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.navbar__main-list input[type="checkbox"]:checked ~ .navbar__main-label .navbar__list-icon::after {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.navbar__list-icon::after, .navbar__list-icon::before {
+  content: "";
+  width: 1.2rem;
+  height: 2px;
+  background-color: #000;
+  display: inline-block;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
 .navbar__main-label {
+  position: relative;
   width: 100%;
   padding: 0.5rem 1rem;
   font-size: 1.7rem;

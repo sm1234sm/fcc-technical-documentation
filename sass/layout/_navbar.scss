@@ -1,6 +1,6 @@
 .navbar {
     height: 100%;
-    
+
     @include respond(tab-port) {
         height: unset;
         background-color: $color-grey-light-1;
@@ -103,7 +103,6 @@
         @include respond(tab-port) {
             overflow-y: none;
         }
-
     }
 
     &__main-list {
@@ -129,10 +128,41 @@
                 transition: all 0.5s;
                 opacity: 1;
             }
+
+            & ~ .navbar__main-label .navbar__list-icon::before {
+                transform: rotate(0deg);
+            }
+            &:checked ~ .navbar__main-label .navbar__list-icon::before {
+                transform: rotate(180deg);
+            }
+
+            & ~ .navbar__main-label .navbar__list-icon::after {
+                transform: rotate(-90deg);
+            }
+            &:checked ~ .navbar__main-label .navbar__list-icon::after {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    &__list-icon {
+
+        &::after,
+        &::before {
+            content: "";
+            width: 1.2rem;
+            height: 2px;
+            background-color: $color-black;
+            display: inline-block;
+            position: absolute;
+            right: 2rem;
+            bottom: 2rem;
+            transition: all 0.2s;
         }
     }
 
     &__main-label {
+        position: relative;
         width: 100%;
         padding: 0.5rem 1rem;
         font-size: 1.7rem;
